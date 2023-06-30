@@ -1,8 +1,8 @@
 # Table of Contents
 
-[Team Members](#team-members)
-[Project Overview](#project-overview)
-[Citation](#citations)
+[Team Members](#team-members) <br/>
+[Project Overview](#project-overview) <br/>
+[Citation](#citations) <br/>
 
 # Team Members
 
