@@ -1,0 +1,35 @@
+h3 {
+    font-style: italic;
+}
+body {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+h2 {
+    background: #0b3ba3;
+    color: #ffffff;
+    padding: 8px;
+    text-align: center;
+}
+
+p {
+    text-indent: 32px;
+    margin-bottom: 2.5rem;
+}
+
+li {
+    padding: .5rem;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color:aliceblue;
+}
