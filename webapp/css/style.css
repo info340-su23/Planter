@@ -181,3 +181,73 @@ footer p {
 footer p:last-child {
     padding-top: 8px;
 }
+
+/* Home page content */
+.hp-card-container {
+  background-color: white;
+  width:240px;
+  text-align: center;
+  justify-content: center;
+  padding: 24px;
+  border-radius: 4px;
+}
+
+.hp-card-find {
+  margin-right: 64px;
+  background-color: #A6CDCC;
+  width: 272px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.hp-card-plan {
+  margin-right: 64px;
+  background-color: #efb643;
+  width: 272px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.hp-card-team {
+
+  background-color: #d9bcb8;
+  width: 272px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.hp-card-title {
+  font-size: 32px;
+}
+
+.hp-card-image {
+  padding-top: 16px;
+}
+
+.hp-cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8em;
+}
+
+.hp-mission {
+  margin-left: 12em;
+  margin-right: 12em;
+  margin-bottom: 6em;
+}
+
+.hp-eyecatch {
+  font-size: 64px;
+}
+
+.hp-statement {
+  margin-top: 8em;
+  font-size: 24px;
+  width: 424px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  
+}
