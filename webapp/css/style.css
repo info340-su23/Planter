@@ -7,14 +7,32 @@ body {
 }
 
 /* -- NAV BAR -- */
+
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    color: white;
-    background-color: #031349;
-    padding: .5rem .5rem 1rem .5rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  width: 100%;
+  color: white;
+  background-color: #031349;
+  padding: .5rem .5rem 1rem .5rem;
+}
+
+.nav-left {
+    margin-right: auto;
+    font-size: 1.25em;
+}
+
+.nav-right {
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+.logo-image {
+    max-height: 24px;
+    max-width: 24px;
 }
 
 /*list in nav*/
@@ -24,15 +42,15 @@ ul {
 }
 
 /*nav icons*/
-li {
+li, .potted-plant {
     color: white;
     display: inline;
     margin: 0 1rem;
 }
 
-li a:hover {
+li a:hover, .potted-plant:hover {
     color: #f0f0f0;
-    border-bottom: 0.8rem solid #f0f0f0;
+    border-bottom: 0.25rem solid #f0f0f0;
     transition: .25s ease-out;
 }
 
@@ -42,7 +60,12 @@ li a {
     text-decoration: none;
 }
 
+.potted-plant {
+  color: #1FB152;
+}
+
 /* -- HEADER -- */
+
 header {
     color: black;
     padding-top: 6rem;
@@ -50,9 +73,18 @@ header {
 }
 
 /* -- CARDS -- */
-.card {
-    flex: 0 0 250px;
-    background-color: white;
+
+.card-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    height: 100%
+  }
+
+.outter-card {
+    flex: 0 0 270px;
+    background-color: #F0F0F0;
     margin: 0.5rem;
     border-radius: 10px;
     box-shadow:
@@ -60,8 +92,70 @@ header {
       0 1px 3px rgba(0, 0, 0, 0.23);
   }
 
-  /*text in card*/
-  .card > p {
+  .outter-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .inner-card {
+    flex: 0 0 80px;
+    background-color: #E7E7E7;
+    margin: 0.5rem;
+    border-radius: 10px;
+  }
+
+  /* add icon above image*/
+  .playlist-add {
+    text-align: right;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    color: #505050;
+  }
+  
+
+  /* icons at bottom of card */
+  .bottom-icons-container {
+    margin: 1rem;
+    grid-area: stats; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-radius: 0 0 15px 15px;
+}
+
+.bottom-icons-container .sunlight .water {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding:10px;
+}
+
+.water-icon {
+    color: #3780D6;
+}
+
+.sun-icon {
+    color: #FFBA08;
+}
+
+/* adjusting font sizes at bottom*/
+.type {
+    font-size: 11px;
+}
+
+.value {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*text in card*/
+  .outter-card >  p {
+    padding: 0.5rem 1rem;
+    justify-content: center;
+  }
+
+  .inner-card > p {
     padding: 0.5rem 1rem;
   }
 
