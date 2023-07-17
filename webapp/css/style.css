@@ -255,3 +255,45 @@ footer p:last-child {
   margin-left: 36em;
   margin-right: 36em;
 }
+
+
+
+.search-bar {
+  background-color: white;
+  width: auto;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: 1.5px solid #DADADADA;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.search-bar p {
+  margin: 48px;
+}
+
+.filters {
+  height: 32px;
+  margin-right: 16px;
+  background-color: #FFBA08;
+}
+
+.outer-post {
+  margin-top: 40px;
+  background: white;
+  border: 1.5px solid #DADADADA;
+  border-radius: 8px;
+}
+
+.inner-post {
+  background-color: white;
+  margin: 16px;
+  border: 1.5px solid #DADADADA;
+  border-radius: 8px;
+}
+
+.inner-post p {
+  margin-left: 32px;
+}
