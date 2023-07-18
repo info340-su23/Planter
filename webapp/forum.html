@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <body style="background-color: #f0f2F5;"></body>
 </head>
 
 
@@ -27,16 +28,48 @@
 
     <!--Page Title/Header-->
     <header>
-        <div>
-          <h1>Planet plant</h1>
+      <div class="search-bar">
+        <div class="button">
+          <button type="button"><span class="material-icons" aria-label="search">search</span></button>
         </div>
+        <input type="search" name="search" placeholder="Search forums"></input>
+      </div>
     </header>
 
     <!-- Body -->
     <main>
       <section>
-        <p>hi</p>
+        <!-- User can click on a tag to filter by: -->
+        <div class="filters">
+            <button class = "events" type=button>Events</button>
+            <button class = "tips" type=button>Plant Tips</button>
+            <button class = "sale" type=button>For Sale</button>
+            <button class = "help" type=button>Help Wanted</button>
+            <button class = "sustainbility" type=button>Sustainbility</button>
+            <button class = "progress" type=button>Progress</button>
+          <button class = "bookmark" type="button"><span class="material-icons" aria-label="bookmark">bookmark</span></button>
+        </div>
+        
+        <!-- User clicks textbox to begin creating a post -->
+        <div class="outer-post">
+          <div class="inner-post">
+            <span class="material-icons" aria-label="account_circle">account_circle</span>
+          </div>
+          <input type="text" name="text" placeholder="create post"></input>
+        </div>
 
+
+        <!-- Posted content. User can click to expand or interact in other ways -->
+        <div class="posted">
+          <div class="topic">
+            <span class="material-icons" aria-label="account_circle">account_circle</span>
+            <h4>Lily</h4>
+            <button class="tips2" type=button>Plant Tips</button>
+            <button class="sustainbility2" type=button>Sustainbility</button>
+            <h5>You can plant more lilies if you lorem ipsum</h5>
+            <p>Has anyone tried... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
       </section>
     </main>
 
