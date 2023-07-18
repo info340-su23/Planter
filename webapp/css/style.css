@@ -9,6 +9,7 @@ body {
 p {
   font-size: 18px;
 }
+
 /* -- NAV BAR -- */
 
 nav {
@@ -17,15 +18,16 @@ nav {
   top: 0;
   left: 0;
   align-items: center;
+  height: 64px;
   width: 100%;
   color: white;
   background-color: #031349;
-  padding: .5rem .5rem 1rem .5rem;
+  padding: .5rem .5rem .5rem .5rem;
 }
 
 .nav-left {
-    margin-right: auto;
-    font-size: 1.25em;
+  margin-right: auto;
+  font-size: 1.25em;
 }
 
 .nav-right {
@@ -33,9 +35,9 @@ nav {
   margin-right: 2rem;
 }
 
-.logo-image {
-    max-height: 24px;
-    max-width: 24px;
+.logo-name {
+  font-weight: bold;
+  margin-left: 1.25rem;
 }
 
 /*list in nav*/
@@ -71,8 +73,80 @@ li a {
 
 header {
     color: black;
-    padding-top: 6rem;
-    padding-bottom: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* -- WATERING SCHEDULE -- */
+
+.calendar {
+  padding: 20px 0 20px 0;
+  width: auto;
+  background-color: #F0F0F0;
+}
+
+.grid {
+  display: grid;
+  width: auto;
+  height: auto;
+  grid-template-columns: 72px 176px 176px 176px 176px 176px 176px 176px;
+  grid-template-rows: 36px auto auto;
+  column-gap: 9px;
+  row-gap: 9px;
+  border-radius: 10px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.plant-card, .blank-card {
+  height: 184px;
+  width: 164px;
+  background-color: #E7E7E7;
+  margin: 0.5rem;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  justify-items: center;
+  text-align: center;
+}
+
+.no-entry {
+  padding-top: 88px;
+  color: #9a9a9a;
+}
+
+.plant-card > img {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.plant-card:hover {
+  outline: 2px solid #3780D6;
+}
+
+.weekday-num {
+  padding-top: 30px;
+  margin-right: 0;
+  text-align: left;
+}
+
+.weekday-name {
+  text-align: center;
+}
+
+.weekday-name, .weekday-num {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media (max-width: 1080px) {
+  .calendar {
+      overflow-x: auto;
+      width: auto;
+      display: flex;
+      flex-wrap: nowrap;
+      height: 300px;
+  }
 }
 
 /* -- CARDS -- */
@@ -80,9 +154,15 @@ header {
 .card-container {
     text-align: center;
     display: flex;
+    gap: 15px;
     flex-wrap: wrap;
     justify-content: left;
-    height: 100%
+    height: 100%;
+    padding-bottom: 2.5rem;
+  }
+
+  .card-container > a {
+    color: #505050;
   }
 
 .outter-card {
@@ -107,13 +187,17 @@ header {
   }
 
   /* add icon above image*/
-  .playlist-add {
+  .playlist-add, .playlist-remove {
     text-align: right;
     padding-right: 0.5rem;
     padding-top: 0.5rem;
     color: #505050;
   }
-  
+
+  .playlist-add:hover, .playlist-remove:hover, .interact:hover {
+    color: #9a9a9a;
+    cursor: pointer;
+  }
 
   /* icons at bottom of card */
   .bottom-icons-container {
@@ -143,13 +227,23 @@ header {
 }
 
 /* adjusting font sizes at bottom*/
-.type {
-    font-size: 11px;
+.name {
+  padding-top: 0.5rem;
+  font-weight: bold;
+}
+
+.type, .desc {
+  font-size: 11px;
+}
+
+.desc {
+  padding-bottom: 0.75rem;
 }
 
 .value {
-    font-size: 18px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 0.125rem;
 }
 
 /*text in card*/
@@ -162,28 +256,79 @@ header {
     padding: 0.5rem 1rem;
   }
 
+/*media query*/
+  @media (max-width: 767px ) {
+    .grid_item {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-container {
+      flex-direction: column;
+    }
+
+    .name {
+      font-size: 18px;
+    }
+
+    .desc {
+      font-size: 16px;
+    }
+    
+    .type {
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .grid_item  {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /* GRID CREDIT: https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe */
+
 /* -- FOOTER -- */
 
 footer {
-    color: black;
-    background-color: #F0F0F0;
+  text-align: center;
+  color: white;
+  background-color: #505050;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+  padding-bottom: 45px;
 }
 
-/*hyperlinks*/
+.footer-content {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+  display: inline;
+} 
+
+/*hyper link*/
 footer a {
-    color: black;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
-/*text in footer*/
+li a:hover {
+  color: #f0f0f0;
+  border-bottom: 0.8rem solid #f0f0f0;
+  transition: .25s ease-out;
+}
+
 footer p {
-    margin: 0;
-    line-height: 1.25;
+  margin: 0;
+  line-height: 1.25;
 }
 
 footer p:last-child {
-    padding-top: 8px;
+  padding-top: 8px;
 }
+
+
 
 /* Home page content */
 .hp-card-container {
