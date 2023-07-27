@@ -437,6 +437,8 @@ footer p:last-child {
   background-color:  #E7E7E7;
 }
 
+/* FILTER/TAGS SECTION */
+
 div.filters{
   width: 100%;
   height: 90px;
@@ -444,108 +446,51 @@ div.filters{
   overflow-x: auto;
 }
 
-div.filters > button{
+.tag {
   display: inline-block;
+  margin-right: 32px; /* Spacing between each tag */
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .events{
   background-color: #FFC84B;
-  border-radius: 5px;
-  border: none;
-  margin: 0;
-  position: absolute;
-  left: 18%;
-  padding: 5px;
-}
-
-.events:hover{
-  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
 }
 
 .tips{
   background-color: #597B49;
-  border-radius: 5px;
-  border: none;
-  position: absolute;
-  left: 28%;
-  padding: 5px;
-}
-
-.tips:hover{
-  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
+  color: white;
 }
 
 .sale{
   background-color: #D9BCB8;
-  border-radius: 5px;
-  border: none;
-  position: absolute;
-  left: 38%;
-  padding: 5px;
-}
-
-.sale:hover{
-  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
 }
 
 .help{
   background-color: #D1806B;
-  border-radius: 5px;
-  border: none;
-  position: absolute;
-  left: 48%;
-  padding: 5px;
-}
-
-.help:hover{
-  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
 }
 
 .sustainbility{
   background-color: #699FE0;
-  border-radius: 5px;
-  border: none;
-  position: absolute;
-  left: 60%;
-  padding: 5px;
-}
-
-.sustainbility:hover{
-  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
 }
 
 .progress{
   background-color: #A6CDCC;
-  border-radius: 5px;
-  border: none;
-  position: absolute;
-  left: 70%;
-  padding: 5px;
-}
-
-.progress:hover{
-  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
 }
 
 .bookmark{
   background-color: white;
   color:#3F3F3F;
-  border-radius: 5px;
-  border: none;
-  margin: 0;
-  position: absolute;
-  left: 80%;
-  padding: 5px;
 }
 
-.bookmark:hover{
-  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
+.tag:hover {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-.filters {
-  height: 32px;
-  margin-right: 16px;
-}
+/* END OF FILTER TAGS */
 
 .outer-post {
   background-color: white;
@@ -609,6 +554,7 @@ div.filters > button{
   left: 69%;
   padding: 5px;
   margin-top: 20px;
+  color: white;
 }
 
 .sustainbility2{
