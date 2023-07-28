@@ -258,7 +258,7 @@ header {
 
 /*media query*/
   @media (max-width: 767px ) {
-    .grid_item {
+    .grid-item {
       grid-template-columns: repeat(2, 1fr);
     }
 
