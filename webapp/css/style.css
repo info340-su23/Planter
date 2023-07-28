@@ -537,7 +537,7 @@ footer p:last-child {
 .title-row {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 0;
 }
 
 .account-icon {
@@ -561,6 +561,7 @@ footer p:last-child {
 
 .text-box {
   padding: 10px;
+  margin-top: 16px;
   margin-bottom: 10px;
   border: 1.5px solid #DADADA;
   border-radius: 10px;

@@ -42,36 +42,70 @@
     <main>
       <section>
         <!-- User can click on a tag to filter by: -->
-        <div class="filters">
-            <button class = "events" type=button>Events</button>
-            <button class = "tips" type=button>Plant Tips</button>
-            <button class = "sale" type=button>For Sale</button>
-            <button class = "help" type=button>Help Wanted</button>
-            <button class = "sustainbility" type=button>Sustainbility</button>
-            <button class = "progress" type=button>Progress</button>
-          <button class = "bookmark" type="button"><span class="material-icons" aria-label="bookmark">bookmark</span></button>
-        </div>
-        
-        <!-- User clicks textbox to begin creating a post -->
-        <div class="outer-post">
-          <div class="inner-post">
-            <span class="material-icons" aria-label="account_circle">account_circle</span>
+        <div class="filter-container">
+          <div class="filters">
+              <div class="left-tags">
+              <button class = "tag events" type=button>Events</button>
+              <button class = "tag tips" type=button>Plant Tips</button>
+              <button class = "tag sale" type=button>For Sale</button>
+              <button class = "tag help" type=button>Help Wanted</button>
+              <button class = "tag sustainbility" type=button>Sustainbility</button>
+              <button class = "tag progress" type=button>Progress</button>
+              </div>
+            <button class = "tag bookmark" type="button"><span class="material-icons" aria-label="bookmark">bookmark</span>View saved</button>
+          </div>            
           </div>
-          <input type="text" name="text" placeholder="create post"></input>
+        
+        <!-- Create post -->
+        <div class="post-container">
+
+          <!-- container for first row -->
+          <div class="title-row">
+              <!-- Account icon -->
+            <div class="account-icon">
+              <span class="material-icons" aria-label="account_circle">account_circle</span>
+            </div>
+
+            <!-- Title input -->
+            <div class="title-box">
+              <input type="text" name="text" placeholder="create post"></input>
+            </div>
+          </div>
+
         </div>
 
 
         <!-- Posted content. User can click to expand or interact in other ways -->
         <div class="posted">
-          <div class="topic">
-            <span class="material-icons" aria-label="account_circle">account_circle</span>
-            <h4>Lily</h4>
-            <button class="tips2" type=button>Plant Tips</button>
-            <button class="sustainbility2" type=button>Sustainbility</button>
-            <h5>You can plant more lilies if you lorem ipsum</h5>
-            <p>Has anyone tried... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
+          <!-- Section 1 -->
+          <div class="post-header">
+            <div class="account">
+              <span class="material-icons" aria-label="account_circle">account_circle</span>
+              <h4>Lily</h4>                
+            </div>
+            <div class="right-tags">
+              <button class = "tag tips" type=button>Plant Tips</button>
+              <button class = "tag sustainbility" type=button>Sustainbility</button>                
+            </div>
+
+          </div>
+
+          <!-- title -->
+            <h2>You can plant more lilies if you lorem ipsum</h2>
+
+          <!-- post content -->
+          <div class="posted-text">
+            <p>Has anyone tried... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>              
+          </div>
+
+
+            <!-- different post interactions (like, save) -->
+          <div class="post-interactions">
+              Like
+              Save
+          </div>
+      </div>
+
       </section>
     </main>
 
