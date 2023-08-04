@@ -38,12 +38,17 @@
       display: inline;
       margin: 0 1rem;
   }
-  
+  .nav li.active {
+    color: #f0f0f0;
+    border-bottom: 0.25rem solid #f0f0f0;
+  }  
   li a:hover, .potted-plant:hover {
       color: #f0f0f0;
-      border-bottom: 0.25rem solid #f0f0f0;
+      border-bottom: 0.5rem solid #f0f0f0;
       transition: .25s ease-out;
   }
+
+
   
   /*icons*/
   li a {
