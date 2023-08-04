@@ -2,7 +2,7 @@ import './Navbar.css'
 
 export default function Navbar() {
     return(
-    <div className="nav">
+    <nav className="nav">
 
     <div className="nav-left">  
       <ul>
@@ -11,12 +11,24 @@ export default function Navbar() {
     </div>
       <ul>
         <div className="nav-right">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="webapp/plants.html">Plant Finder</a></li>
-          <li><a href="webapp/forum.html">Forum</a></li>
+          <CurrLink href="/home">Home</CurrLink>
+          <CurrLink href="/plant">Plant</CurrLink>
+          <CurrLink href="/forum">Forum</CurrLink>
+          {/* <li><a href="/home">Home</a></li>
+          <li><a href="/plant">Plant Finder</a></li>
+          <li><a href="/forum">Forum</a></li> */}
         </div>
       </ul>
 
-    </div>        
+    </nav>        
     );
+}
+
+function CurrLink({href, children, ...props}) {
+  const path = window.location.pathname
+  return(
+    <li className={path == href ? "active" : ""}>
+      <a href={href} {...props}>{children}</a>
+    </li>
+  )
 }
