@@ -1,0 +1,77 @@
+.filter-container {
+    margin: auto;
+  }
+  
+  .filters{
+    width: 100%;
+    height: 64px;
+    white-space: nowrap;
+    overflow-x: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .left-tags {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tag-bot {
+    margin-top: 8px;
+  }
+  
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 32px; /* Spacing between each tag */
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .events{
+    background-color: #FFC84B;
+  }
+  
+  .tips{
+    background-color: #597B49;
+    color: white;
+  }
+  
+  .sale{
+    background-color: #D9BCB8;
+  }
+  
+  .help{
+    background-color: #D1806B;
+  }
+  
+  .sustainbility{
+    background-color: #699FE0;
+  }
+  
+  .progress{
+    background-color: #A6CDCC;
+  }
+  
+  .bookmark{
+    background-color: white;
+    color:#3F3F3F;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  
+  .tag:hover, .post:hover {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  @media (min-width: 992px) {
+    .left-tags {
+        flex-direction: row;
+    }
+}

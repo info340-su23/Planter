@@ -12,18 +12,26 @@
   }
   
   .nav-left {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
     margin-right: auto;
     font-size: 1.25em;
+    margin-left: 4rem;
   }
   
   .nav-right {
     justify-content: flex-end;
-    margin-right: 2rem;
+    margin-right: 4rem;
   }
   
+  .logo {
+    width: 32px;
+  }
+
   .logo-name {
     font-weight: bold;
-    margin-left: 1.25rem;
+    margin-left: 8px;
   }
   
   /*list in nav*/

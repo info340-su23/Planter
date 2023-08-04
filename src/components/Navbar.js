@@ -5,6 +5,7 @@ export default function Navbar() {
     <nav className="nav">
 
     <div className="nav-left">  
+      <img className="logo" src="./img/Planter.png" alt="Planter logo"/>
       <ul>
         <li><div className="logo-name">Planter</div></li>
       </ul>
