@@ -1,6 +1,21 @@
+import React, {useState} from 'react';
 import './Posted.css';
 
 export default function Posted() {
+    const [liked, setLiked] = useState(false);
+    const [saved, setSaved] = useState(false);
+  
+    const handleLikeClick = () => {
+      setLiked(!liked);
+    };
+  
+    const handleSaveClick = () => {
+      setSaved(!saved);
+    };
+
+
+
+
     return (
         <div>
             <div className="posted">
@@ -31,9 +46,20 @@ export default function Posted() {
 
                     {/* <!-- different post interactions (like, save) --> */}
                 <div className="post-interactions">
-                    Like
-                    Save
+                    <div className="likeBtn">
+                        <span className={`material-icons ${liked ? 'liked' : ''}`}
+                        onClick={handleLikeClick} aria-label="like"> favorite
+                        </span> 
+                        <p>Like</p>
+                    </div>
+                    <div className="saveBtn">
+                        <span className={`material-icons ${saved ? 'saved' : ''}`} 
+                        onClick={handleSaveClick} aria-label="save">bookmark
+                        </span>
+                        <p>Save</p>
+                    </div>
                 </div>
+                
             </div>            
         </div>
     );

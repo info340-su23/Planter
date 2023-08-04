@@ -57,3 +57,27 @@
     font-size: 1rem;
     font-weight: 600;
   }
+
+  .post-interactions, .likeBtn, .saveBtn {
+    display: flex;
+    align-items: center;
+  }
+
+  .likeBtn, .saveBtn {
+    margin-right: 16px;
+    padding-right: 8px;
+  }
+
+  /* cant get them to be white with black border */
+  /* .post-interactions .material-icons {
+    color-scheme: white;
+    border: 1px solid black;
+  } */
+
+ .liked {
+    color: rgb(202, 3, 3);
+  }
+
+  .saved {
+    color: goldenrod;
+  }
