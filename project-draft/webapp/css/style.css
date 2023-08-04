@@ -9,11 +9,12 @@ body {
 .wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 95vh;
+  min-height: 90vh;
 }
 
 main {
   flex-grow: 1;
+  overflow-y: auto;
 }
 
 p {
@@ -305,7 +306,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  position: relative;
+  position: fixed;
   padding-bottom: 45px;
 }
 

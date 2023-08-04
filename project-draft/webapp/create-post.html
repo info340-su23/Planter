@@ -33,12 +33,16 @@
 
     <!--Page Title/Header-->
     <header>
-      <div class="search-bar">
-        <div class="button">
-          <button type="button"><span class="material-icons" aria-label="search">search</span></button>
+      <form class="search-form" action="/search" method="get">
+        <div class="search-bar">
+          <label for="search-input" class="button">
+            <button type="submit" aria-label="Search">
+              <span class="material-icons" aria-hidden="true">search</span>
+            </button>
+          </label>
+          <input type="search" id="search-input" name="q" placeholder="Search forums" aria-label="Search input">
         </div>
-        <input type="search" name="search" placeholder="Search forums"></input>
-      </div>
+      </form>
     </header>
 
     <!-- Body -->
