@@ -663,6 +663,15 @@ footer p:last-child {
   margin-bottom: 16px;
 }
 
+.post-title {
+  font-display: bold;
+  background-color: #1FB152;
+}
+
+.post-acc-name {
+
+}
+
 /* POSTED DONE */
 
 @media (min-width: 992px) {
