@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Nunito', Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+  }
+  
+  main {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+  
+  p {
+    font-size: 18px;
+  }
