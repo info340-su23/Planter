@@ -1,0 +1,23 @@
+.hp-mission {
+    margin-left: 36em;
+    margin-right: 36em;
+    margin-bottom: 6em;
+  }
+  
+  .hp-eyecatch {
+    font-size: 64px;
+  }
+  
+  .hp-statement {
+    margin-top: 8em;
+    font-size: 24px;
+    width: 424px;
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 36em;
+    margin-right: 36em;
+    margin-top: 96px;
+  }
