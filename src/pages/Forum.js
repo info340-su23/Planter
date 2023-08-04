@@ -1,12 +1,20 @@
 import Navbar from '../components/Navbar'
 import Searchbar from '../components/Searchbar'
+import Filters from '../components/Filters'
+import CreatePost from '../components/CreatePost'
+import Posted from '../components/Posted'
+import './Forum.css'
 
 export default function Forum() {
     return(
-        <div>
+        <div className="forumPage">
             <Navbar/>;
-            <Searchbar/>;  
-            <h1>Forum</h1>          
+            <div className="innerContent">
+                <Searchbar/>
+                <Filters />
+                <CreatePost />
+                <Posted />
+            </div>
         </div>
     );
 }
