@@ -587,8 +587,9 @@ footer p:last-child {
   padding-bottom: 120px;
 }
 
-.text-box p {
-  margin: 0;
+.text-box input[type="text"]  {
+  padding-top: 10px;
+  margin-top: 10px;
 }
 
 .post-tags {
