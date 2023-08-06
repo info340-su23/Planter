@@ -1,0 +1,48 @@
+footer {
+    text-align: center;
+    color: white;
+    background-color: #505050;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    padding-bottom: 45px;
+  }
+  
+  .footer-content {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+    display: inline;
+  } 
+  
+  /*hyper link*/
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #f0f0f0;
+    border-bottom: 0.8rem solid #f0f0f0;
+    transition: .25s ease-out;
+  }
+  
+  footer p {
+    margin: 0;
+    line-height: 1.25;
+  }
+  
+  footer p:last-child {
+    padding-top: 8px;
+  }
+
+  .nav-right {
+    justify-content: flex-end;
+    margin-right: 2rem;
+  }
+
+  .logo-name {
+    font-weight: bold;
+    margin-left: 1.25rem;
+  }

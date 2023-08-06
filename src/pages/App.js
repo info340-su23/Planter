@@ -1,6 +1,7 @@
 import HomePage from './HomePage.js'
 import Forum from './Forum.js'
 import Navbar from '../components/Navbar'
+import Plants from '../Plants.js'
 
 export default function App(props) {
     // routing
@@ -15,6 +16,9 @@ export default function App(props) {
       case "/forum":
         page = <Forum />
           break
+      case "/plant":
+        page = <Plants />
+        break
     }
     return (
       <div>

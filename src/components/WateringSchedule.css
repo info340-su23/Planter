@@ -1,0 +1,128 @@
+.calendar {
+    padding: 20px 0 20px 0;
+    width: auto;
+    background-color: #F0F0F0;
+  }
+  
+  .grid {
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-columns: 72px 176px 176px 176px 176px 176px 176px 176px;
+    grid-template-rows: 36px auto auto;
+    column-gap: 9px;
+    row-gap: 9px;
+    border-radius: 10px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .plant-card, .blank-card {
+    height: 184px;
+    width: 164px;
+    background-color: #E7E7E7;
+    margin: 0.5rem;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
+  }
+  
+  .no-entry {
+    padding-top: 88px;
+    color: #9a9a9a;
+  }
+  
+  .plant-card > img {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .plant-card:hover {
+    outline: 2px solid #3780D6;
+  }
+  
+  .weekday-num {
+    padding-top: 30px;
+    margin-right: 0;
+    text-align: left;
+  }
+  
+  .weekday-name {
+    text-align: center;
+  }
+  
+  .weekday-name, .weekday-num {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 1080px) {
+    .calendar {
+        overflow-x: auto;
+        width: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        height: 300px;
+    }
+  }
+
+  .name {
+    padding-top: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .type, .desc {
+    font-size: 11px;
+  }
+  
+  .desc {
+    padding-bottom: 0.75rem;
+  }
+  
+  .value {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 0.125rem;
+  }
+  
+  /*text in card*/
+    .outter-card >  p {
+      padding: 0.5rem 1rem;
+      justify-content: center;
+    }
+  
+    .inner-card > p {
+      padding: 0.5rem 1rem;
+    }
+  
+  /*media query*/
+    @media (max-width: 767px ) {
+      .grid-item {
+        grid-template-columns: repeat(2, 1fr);
+      }
+  
+      .card-container {
+        flex-direction: column;
+      }
+  
+      .name {
+        font-size: 18px;
+      }
+  
+      .desc {
+        font-size: 16px;
+      }
+      
+      .type {
+        font-size: 18px;
+      }
+    }
+  
+    @media (min-width: 768px) {
+      .grid_item  {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  
