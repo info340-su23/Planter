@@ -1,7 +1,7 @@
 import HomePage from './HomePage.js'
 import Forum from './Forum.js'
 import Navbar from '../components/Navbar'
-import Plants from '../Plants.js'
+import Plants from './Plants.js'
 
 export default function App(props) {
     // routing
@@ -21,7 +21,7 @@ export default function App(props) {
         break
     }
     return (
-      <div>
+      <div className="App">
         <Navbar />
         {page}
       </div>
