@@ -102,32 +102,3 @@
   .inner-card > p {
     padding: 0.5rem 1rem;
   }
-
-/*media query*/
-  @media (max-width: 767px ) {
-    .grid-item {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .card-container {
-      flex-direction: column;
-    }
-
-    .name {
-      font-size: 18px;
-    }
-
-    .desc {
-      font-size: 16px;
-    }
-    
-    .type {
-      font-size: 18px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .grid_item  {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
