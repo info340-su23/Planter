@@ -1,12 +1,11 @@
 import Navbar from '../components/Navbar';
 import WateringSchedule from '../components/WateringSchedule'
 import MyList from '../components/MyList'
-import Indoors from '../components/Indoors'
-import EasytoCare from '../components/EasytoCare'
 import './Plants.css'
 import Footer from '../components/Footer';
+import {EasyToCare, GreatForIndoors} from '../components/PlantLists';
 
-export default function Plants() {
+export default function Plants(props) {
     return(
         <div className="plantsPage">
             <Navbar/>;
@@ -20,8 +19,8 @@ export default function Plants() {
                 {/*COMPONENTS*/}
                 <WateringSchedule/>
                 <MyList/>
-                <Indoors/>
-                <EasytoCare/>
+                <GreatForIndoors plants={props.plants}/>
+                <EasyToCare plants={props.plants}/>
             </div>
             <div className="outerContent">
                 {/*FOOTER*/}

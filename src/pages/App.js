@@ -17,7 +17,7 @@ export default function App(props) {
         page = <Forum />
           break
       case "/plant":
-        page = <Plants />
+        page = <Plants plants={props.plants}/>
         break
     }
     return (
