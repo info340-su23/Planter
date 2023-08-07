@@ -5,6 +5,7 @@ import Plants from './Plants.js'
 import Footer from '../components/Footer.js'
 
 export default function App(props) {
+
     // routing
     let page
     switch (window.location.pathname) {

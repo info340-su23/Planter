@@ -1,16 +1,31 @@
 import React from 'react'
 import './PlantLists.css';
 
-function PlantCard(props = {}) {
+export function PlantCard(props) {
+    const { name, scientific, sun, water, difficulty, inMyList, handleRemoveFromList, handleClick } = props;
 
-    let {name, scientific, sun, water, difficulty} = props;
+    const handleIconClick = (event) => {
+        event.preventDefault();
+        if (inMyList) {
+            handleRemoveFromList({ name, scientific, sun, water, difficulty });
+        } else {
+            handleClick({ name, scientific, sun, water, difficulty });
+        }
+    };
+
+    let icon= "";
+    if (inMyList) {
+        icon = "playlist_remove";
+    } else {
+        icon = "playlist_add";
+    }
 
     return (
         <div className="outter-card">
             <div className="inner-card">
-                <div className="playlist-remove">
-                    <a className="interact" href="plants2.html">
-                        <span className="material-icons">playlist_remove</span>
+                <div className="playlist-add">
+                    <a className="interact" onClick={handleIconClick}>
+                        <span className="material-icons">{icon}</span>
                     </a>
                 </div>
                 <img src="./img/plant.png" alt="A green plant in a yellow pot" />
@@ -41,11 +56,52 @@ function PlantCard(props = {}) {
     )
 }
 
+// potential placeholder card for the "My List"
+// export function PlaceholderCard() {
+//     return (
+//       <div className="outter-card placeholder-card">
+//         <div className="inner-card">
+//           <img src="./img/placeholder.png" alt="Placeholder" />
+//           <div className="plant-type">
+//             <div className="name">No plants in your list</div>
+//           </div>
+//         </div>
+//       </div>
+//     );
+//   }  
+
+export function MyList(props) {
+    const { myList, handleClick, handleRemoveFromList } = props;
+    
+    return (
+        <div>
+            <h2>My List</h2>
+            <div className="card-container">
+                {myList.map((plant, index) => (
+                    <PlantCard
+                        key={index}
+                        name={plant.name}
+                        scientific={plant.scientific}
+                        sun={plant.sun}
+                        water={plant.water}
+                        difficulty={plant.difficulty}
+                        inMyList={true}
+                        handleClick={handleClick}
+                        handleRemoveFromList={handleRemoveFromList}
+                    />
+                ))}
+            </div>
+        </div>
+    );
+}
+
 export function GreatForIndoors(props) {
 
-    let indoorsArray = props.plants.filter((plant) => {
-        return plant.sun === "Indirect";
-    })
+    const { setIndoorsArray, indoorsArray, handleClick } = props;
+
+    const handleRemoveFromIndoors = (plant) => { 
+        setIndoorsArray(indoorsArray.filter((item) => item.name !== plant.name));
+      };
 
     return (
         <div>
@@ -59,6 +115,9 @@ export function GreatForIndoors(props) {
                         sun={plant.sun}
                         water={plant.water}
                         difficulty={plant.difficulty}
+                        inMyList={false}
+                        handleClick={handleClick}
+                        handleRemoveFromList={handleRemoveFromIndoors}
                     />
                 ))}
             </div>
@@ -68,9 +127,11 @@ export function GreatForIndoors(props) {
 
 export function EasyToCare(props) {
 
-    let easyCareArray = props.plants.filter((plant) => {
-        return plant.difficulty === "3/10";
-    })
+    const { setEasyCareArray, easyCareArray, handleClick } = props;
+
+    const handleRemoveFromEasyCare = (plant) => { 
+        setEasyCareArray(easyCareArray.filter((item) => item.name !== plant.name));
+      };
 
     return (
         <div>
@@ -84,6 +145,9 @@ export function EasyToCare(props) {
                         sun={plant.sun}
                         water={plant.water}
                         difficulty={plant.difficulty}
+                        inMyList={false}
+                        handleClick={handleClick}
+                        handleRemoveFromList={handleRemoveFromEasyCare}
                     />
                 ))}
             </div>
@@ -92,22 +156,22 @@ export function EasyToCare(props) {
 }
 
 // see all plants in data
-function PlantList(props) {
+// function PlantList(props) {
 
-    return (
-        <div>
-            <div className="card-container">
-                {props.plants.map((plant, index) => (
-                    <PlantCard
-                        key={index}
-                        name={plant.name}
-                        scientific={plant.scientific}
-                        sun={plant.sun}
-                        water={plant.water}
-                        difficulty={plant.difficulty}
-                    />
-                ))}
-            </div>
-        </div>
-    )
-}
+//     return (
+//         <div>
+//             <div className="card-container">
+//                 {props.plants.map((plant, index) => (
+//                     <PlantCard
+//                         key={index}
+//                         name={plant.name}
+//                         scientific={plant.scientific}
+//                         sun={plant.sun}
+//                         water={plant.water}
+//                         difficulty={plant.difficulty}
+//                     />
+//                 ))}
+//             </div>
+//         </div>
+//     )
+// }
