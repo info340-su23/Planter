@@ -38,10 +38,10 @@ export default function Plants(props) {
         <div className="plantsPage">
             <Navbar />
             <header>
+
                 {/*PAGE TITLE/HEADER*/}
                 <div>
                     <h1>Plant Manager</h1>
-                </div>
             </header>
             <div className="innerContent">
                 {/*COMPONENTS*/}

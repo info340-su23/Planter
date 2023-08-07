@@ -5,6 +5,7 @@
   justify-content: left; 
   gap: 50px; 
   padding: 2rem;
+  margin: 6rem auto;
 }
 
 .card-container > a {

@@ -4,6 +4,7 @@ import Filters from '../components/Filters'
 import CreatePost from '../components/CreatePost'
 import Posted from '../components/Posted'
 import './Forum.css'
+import Footer from '../components/Footer.js'
 
 export default function Forum() {
     return(
@@ -14,6 +15,10 @@ export default function Forum() {
                 <Filters />
                 <CreatePost />
                 <Posted />
+            </div>
+            <div className="outerContent">
+                {/*FOOTER*/}
+                <Footer/>
             </div>
         </div>
     );

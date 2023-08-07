@@ -1,6 +1,7 @@
 import './HomePage.css';
 import Cards from '../components/Cards.js'
 import Navbar from '../components/Navbar.js'
+import Footer from '../components/Footer.js'
 
 export default function HomePage() {
 
@@ -24,6 +25,10 @@ export default function HomePage() {
 
               {/* cards */}
             <Cards/>
+            <div className="outerContent">
+                {/*FOOTER*/}
+                <Footer/>
+            </div>
         </div>
 
     );

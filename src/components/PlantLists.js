@@ -105,7 +105,7 @@ export function GreatForIndoors(props) {
 
     return (
         <div>
-            <h2>Great for Indoor</h2>
+            <h2>Great for Indoors</h2>
             <div className="card-container">
                 {indoorsArray.map((plant, index) => (
                     <PlantCard

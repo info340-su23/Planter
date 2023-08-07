@@ -1,42 +1,78 @@
 .hp-card-container {
-    background-color: white;
-    width:240px;
-    text-align: center;
-    justify-content: center;
-    padding: 24px;
-    border-radius: 4px;
-  }
-  
-  .hp-card-find {
-    margin-right: 64px;
-    background-color: #A6CDCC;
-    padding: 16px;
-    border-radius: 8px;
-  }
-  
-  .hp-card-plan {
-    margin-right: 64px;
-    background-color: #efb643;
-    padding: 16px;
-    border-radius: 8px;
-  }
-  
-  .hp-card-team {
-    background-color: #d9bcb8;
-    padding: 16px;
-    border-radius: 8px;
-  }
-  
-  .hp-card-title {
-    font-size: 32px;
-  }
-  
-  .hp-card-image {
-    padding-top: 16px;
-  }
-  
-  .hp-cards {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 8em;
-  }
+  background-color: white;
+  width:240px;
+  text-align: center;
+  justify-content: center;
+  padding: 24px;
+  border-radius: 4px;
+  height: 100%;
+}
+
+.hp-card-find {
+  margin-right: 64px;
+  background-color: #A6CDCC;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.hp-card-plan {
+  margin-right: 64px;
+  background-color: #efb643;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.hp-card-team {
+  background-color: #d9bcb8;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.hp-card-title {
+  font-size: 32px;
+}
+
+.hp-card-image {
+  padding-top: 16px;
+  max-width: 100%;
+}
+
+
+.hp-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-bottom: 8em;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1080px) {
+    .hp-card-title {
+        font-size: 28px;
+    }
+    .hp-card-find,
+    .hp-card-plan,
+    .hp-card-team {
+        width: 240px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .hp-card-container {
+        width: 100%;
+        max-height: none;
+    }
+    .hp-card-title {
+        font-size: 24px;
+    }
+    .hp-card-find,
+    .hp-card-plan,
+    .hp-card-team {
+      width: 37%;
+      height: 100%;
+      padding: 16px;
+      margin-right: 0;
+    }
+}
