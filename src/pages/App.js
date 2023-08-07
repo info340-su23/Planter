@@ -26,6 +26,7 @@ export default function App(props) {
       <div className="App">
         <Navbar />
         {page}
+        <Footer />
       </div>
     )
   }

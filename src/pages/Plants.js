@@ -36,7 +36,7 @@ export default function Plants(props) {
 
     return (
         <div className="plantsPage">
-            <Navbar />
+            {/* <Navbar /> */}
             <header>
 
                 {/*PAGE TITLE/HEADER*/}
@@ -53,7 +53,7 @@ export default function Plants(props) {
             </div>
             <div className="outerContent">
                 {/*FOOTER*/}
-                <Footer />
+                {/* <Footer /> */}
             </div>
         </div>
     );
