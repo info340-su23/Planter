@@ -5,7 +5,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     padding-bottom: 45px;
   }
   
@@ -46,3 +46,20 @@ footer {
     font-weight: bold;
     margin-left: 1.25rem;
   }
+
+  /* html, body, #root {
+    height: 100%;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .App {
+    flex: 1;
+  }
+  
+  footer {
+    flex-shrink: 0;
+  } */
