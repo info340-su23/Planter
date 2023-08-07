@@ -40,7 +40,7 @@ export default function Plants(props) {
             <header>
 
                 {/*PAGE TITLE/HEADER*/}
-                <div>
+                <div className="plantHeader">
                     <h1>Plant Manager</h1>
                 </div>
             </header>
