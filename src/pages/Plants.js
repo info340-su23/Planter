@@ -11,9 +11,7 @@ export default function Plants(props) {
             <Navbar/>;
             <header>
                 {/*PAGE TITLE/HEADERr*/}
-                <div>
                     <h1>Plant Manager</h1>
-                </div>
             </header>
             <div className="innerContent">
                 {/*COMPONENTS*/}
