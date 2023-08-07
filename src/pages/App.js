@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import Plants from './Plants.js'
 
 export default function App(props) {
+
     // routing
     let page
     switch (window.location.pathname) {
