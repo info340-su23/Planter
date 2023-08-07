@@ -6,7 +6,7 @@ import Footer from '../components/Footer.js'
 export default function HomePage() {
 
     return (
-        <div>
+        <div className="HomePage">
             <Navbar/>
             {/* banner */}
             <div className="banner">
