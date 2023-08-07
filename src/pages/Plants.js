@@ -42,6 +42,7 @@ export default function Plants(props) {
                 {/*PAGE TITLE/HEADER*/}
                 <div>
                     <h1>Plant Manager</h1>
+                </div>
             </header>
             <div className="innerContent">
                 {/*COMPONENTS*/}
