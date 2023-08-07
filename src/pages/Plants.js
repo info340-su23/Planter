@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import Navbar from '../components/Navbar';
 import WateringSchedule from '../components/WateringSchedule'
 import './Plants.css'
-import Footer from '../components/Footer';
 import { MyList, EasyToCare, GreatForIndoors } from '../components/PlantLists';
 
 export default function Plants(props) {
@@ -16,10 +14,15 @@ export default function Plants(props) {
     "item" = temporary variable in filter method callback -> represent each element of the array being filtered. 
     */
     const addToMyList = (plant) => {
-      setMyList((prevList) => [...prevList, plant]);
-      setIndoorsArray((prevArray) => prevArray.filter((item) => item.name !== plant.name));
-      setEasyCareArray((prevArray) => prevArray.filter((item) => item.name !== plant.name));
-    };
+        // Check if the number of plants in the list is less than 14 before adding
+        if (myList.length < 7) {
+          setMyList((prevList) => [...prevList, plant]);
+          setIndoorsArray((prevArray) => prevArray.filter((item) => item.name !== plant.name));
+          setEasyCareArray((prevArray) => prevArray.filter((item) => item.name !== plant.name));
+        } else {
+          alert('You have reached the maximum number of plants (7)');
+        }
+      };
 
     /*
     Checking if current element's name (item) is NOT equal to the plant being removed from My list. 
@@ -46,7 +49,7 @@ export default function Plants(props) {
             </header>
             <div className="innerContent">
                 {/*COMPONENTS*/}
-                <WateringSchedule />
+                <WateringSchedule  myList={myList} />
                 <MyList plants={props.plants} myList={myList} handleClick={addToMyList} handleRemoveFromList={removeFromMyList} />
                 <GreatForIndoors plants={props.plants} indoorsArray={indoorsArray} handleClick={addToMyList} setIndoorsArray={setIndoorsArray} />
                 <EasyToCare plants={props.plants} easyCareArray={easyCareArray} handleClick={addToMyList} setEasyCareArray={setEasyCareArray} />
