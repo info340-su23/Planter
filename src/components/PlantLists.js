@@ -59,7 +59,7 @@ export function PlantCard(props) {
     )
 }
 
-// potential placeholder card for the "My List"
+// placeholder card for the "My List", maybe
 // export function PlaceholderCard() {
 //     return (
 //       <div className="outter-card placeholder-card">
