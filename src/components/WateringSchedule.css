@@ -22,7 +22,7 @@
   margin: 10px; 
 }
 
-/* Apply gap between Week 1 and Week 2 rows */
+/* Apply gap between rows for the weeks */
 .grid > .grid-item:nth-child(n + 10) {
   row-gap: 64px;
   margin-bottom: 64px;
@@ -38,7 +38,6 @@
   margin-bottom: 20px;
   justify-content: center;
 }
-
 
   .grid-row {
     display: flex;
