@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "firebase use --add project-vuongb2",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
