@@ -14,10 +14,13 @@ export function PlantCard(props) {
     };
 
     let icon= "";
+    let ariaLabel= "";
     if (inMyList) {
         icon = "playlist_remove";
+        ariaLabel = "Remove";
     } else {
         icon = "playlist_add";
+        ariaLabel = "Add";
     }
 
     return (
@@ -25,7 +28,7 @@ export function PlantCard(props) {
             <div className="inner-card">
                 <div className="playlist-add">
                     <a className="interact" onClick={handleIconClick}>
-                        <span className="material-icons">{icon}</span>
+                        <span className="material-icons" aria-label={ariaLabel}>{icon}</span>
                     </a>
                 </div>
                 <img src="./img/plant.png" alt="A green plant in a yellow pot" />
@@ -56,7 +59,7 @@ export function PlantCard(props) {
     )
 }
 
-// potential placeholder card for the "My List"
+// placeholder card for the "My List", maybe
 // export function PlaceholderCard() {
 //     return (
 //       <div className="outter-card placeholder-card">
