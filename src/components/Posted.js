@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './Posted.css';
 
-export default function Posted() {
+export default function Posted({ title, body }) {
     const [liked, setLiked] = useState(false);
     const [saved, setSaved] = useState(false);
   
@@ -36,11 +36,11 @@ export default function Posted() {
                 </div>
 
                 {/* //   <!-- title --> */}
-                <div className="post-title">You can plant more lilies if you lorem ipsum</div>
+                <div className="post-title">{title}</div>
 
                 {/* <!-- post content --> */}
                 <div className="posted-text">
-                    <p>Has anyone tried... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>              
+                    <p>{body}</p>              
                 </div>
 
 

@@ -1,12 +1,60 @@
 import './CreatePost.css'
 import React, {useState} from 'react'
+// import firebase from 'firebase/app'
+import 'firebase/firestore';
+import { getDatabase, ref, set as firebaseSet, push } from 'firebase/database'
 
-export default function CreatePost() {
+export default function CreatePost({ setPosts, posts}) {
     const [showFullBox, setShowFullBox] = useState(false);
+    const [title, setTitle] = useState('create post');
+    const [body, setBody] = useState('');
 
     const handleTitleClick = () => {
         setShowFullBox(true);
     };
+
+    const handleTitleChange = (event) => {
+        setTitle(event.target.value);
+    }
+
+    const handleBodyChange = (event) => {
+        setBody(event.target.value);
+    }
+
+    const handlePostSubmit = () => {
+        //     console.log("handlePostSubmit triggered");
+        //     console.log("Title as:", title);
+        //     console.log("Body:", body);
+        // if (title && body) {
+
+            const db = getDatabase();
+            const postRef = ref(db, 'post');
+            
+            push(postRef, {
+                Title: title,
+                Body: body,
+            });
+
+            setPosts(prevPosts => [
+                ...prevPosts,
+                {
+                    title: title,
+                    body: body
+                }
+            ])
+
+            setShowFullBox(false);
+            setTitle('create post');
+            setBody('');
+        // }
+    };
+
+    // test const database
+    const db = getDatabase();
+    const titleRef = ref(db, "post/Title")
+    // const bodyRef = ref(db, "post/Body")
+    firebaseSet(titleRef, "this is wow!")
+    // firebaseSet(bodyRef, "wooow")
 
     return (
         <div className="post-container">
@@ -21,10 +69,10 @@ export default function CreatePost() {
           {/* <!-- Title input --> */}
           <div className="title-box">
           {showFullBox ? (
-            <input type="text" name="text" placeholder="create post"></input>
+            <input type="text" name="text" placeholder={title} onChange={handleTitleChange}></input>
             ) : (
-                <input type="text" name="text" placeholder="create post"
-                onClick={handleTitleClick}></input>
+                <input type="text" name="text" placeholder={title}
+                onClick={handleTitleClick} onChange={handleTitleChange}></input>
             )}
           </div>
         </div>
@@ -33,7 +81,7 @@ export default function CreatePost() {
         {showFullBox && (
             <div> 
             <div>
-                <input className="text-box" type="text" name="text" placeholder="Text optional"></input>    
+                <input className="text-box" type="text" name="text" placeholder="Text optional" onChange={handleBodyChange}></input>    
             </div>
 
             <div class = "post-tags">
@@ -53,7 +101,7 @@ export default function CreatePost() {
             </div>
 
             </div>
-                <button class = "post" type="button">Post</button>
+                <button class = "post" type="button" onClick={handlePostSubmit}>Post</button>
             </div> 
             </div>          
         )}

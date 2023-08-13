@@ -1,26 +1,28 @@
-
+import React, {useState} from 'react';
 import Searchbar from '../components/Searchbar';
 import Filters from '../components/Filters';
 import CreatePost from '../components/CreatePost';
 import Posted from '../components/Posted';
 import './Forum.css';
-import 'firebase/firestore';
-import 'firebase/auth';
-
-import { useAuthState } from 'react-firebase-hooks/auth';
-import { useCollectionData } from 'react-firebase-hooks/firestore'
 
 
 export default function Forum() {
+    const [posts, setPosts] = useState([]);
+
+    const renderPosts = () => {
+        const correctOrder = [...posts].reverse();
+        return correctOrder.map((post, index) => (
+            <Posted key={index} title={post.title} body={post.body} />
+        ));
+    };
+
     return(
         <div className="forumPage">
             <div className="innerContent">
                 <Searchbar/>
                 <Filters />
-                <CreatePost />
-                <Posted />
-            </div>
-            <div className="outerContent">
+                <CreatePost setPosts={setPosts} posts={posts}/>
+                {renderPosts()}
             </div>
         </div>
     );
