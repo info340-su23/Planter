@@ -6,8 +6,8 @@
     "scientific": "Rubus ursinus",
     "sun": "Partial",
     "water": "Dry/Moist",
-    "height (ft)": 0.5,
-    "avail.": "L",
+    "height": 0.5,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -17,8 +17,8 @@
     "scientific": "Lonicera hispidula",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 0.5,
-    "avail.": "L",
+    "height": 0.5,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -28,8 +28,8 @@
     "scientific": "Lonicera ciliosa",
     "sun": "Shade",
     "water": "Moist",
-    "height (ft)": 20,
-    "avail.": "M",
+    "height": 20,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -39,8 +39,8 @@
     "scientific": "Typha latifolia",
     "sun": "Indirect",
     "water": "Wet",
-    "height (ft)": 8,
-    "avail.": "M",
+    "height": 8,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -50,8 +50,8 @@
     "scientific": "Juncus ensifolius",
     "sun": "Partial",
     "water": "Wet",
-    "height (ft)": 2,
-    "avail.": "L",
+    "height": 2,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -61,8 +61,8 @@
     "scientific": "Carex deweyana",
     "sun": "Partial",
     "water": "Moist",
-    "height (ft)": 2,
-    "avail.": "L",
+    "height": 2,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -72,8 +72,8 @@
     "scientific": "Elymus mollis",
     "sun": "Direct",
     "water": "Moist/Wet",
-    "height (ft)": 3,
-    "avail.": "L",
+    "height": 3,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -83,8 +83,8 @@
     "scientific": "Scirpus acutus",
     "sun": "Direct",
     "water": "Wet",
-    "height (ft)": 9,
-    "avail.": "L",
+    "height": 9,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -94,8 +94,8 @@
     "scientific": "Festuca idahoensis",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 3,
-    "avail.": "L",
+    "height": 3,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -105,8 +105,8 @@
     "scientific": "Carex lyngbyei",
     "sun": "Indirect",
     "water": "Wet",
-    "height (ft)": 3,
-    "avail.": "M",
+    "height": 3,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -116,8 +116,8 @@
     "scientific": "Carex obnupta",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 3,
-    "avail.": "M",
+    "height": 3,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -127,8 +127,8 @@
     "scientific": "Scirpus microcarpus",
     "sun": "Indirect",
     "water": "Wet",
-    "height (ft)": 3,
-    "avail.": "L",
+    "height": 3,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -138,8 +138,8 @@
     "scientific": "Carex pachystachya",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 2,
-    "avail.": "L",
+    "height": 2,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -149,8 +149,8 @@
     "scientific": "Deschampsia cespitosa",
     "sun": "Indirect",
     "water": "Moist",
-    "height (ft)": 3,
-    "avail.": "L",
+    "height": 3,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -160,8 +160,8 @@
     "scientific": "Fragaria chiloensis",
     "sun": "Indirect",
     "water": "Dry",
-    "height (ft)": 1,
-    "avail.": "H",
+    "height": 1,
+    "avail": "H",
     "difficulty": "3/10"
   },
   {
@@ -171,8 +171,8 @@
     "scientific": "Dicentra formosa",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 1.5,
-    "avail.": "H",
+    "height": 1.5,
+    "avail": "H",
     "difficulty": "3/10"
   },
   {
@@ -182,8 +182,8 @@
     "scientific": "Sisyrinchium idahoensis",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 2,
-    "avail.": "L",
+    "height": 2,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -193,8 +193,8 @@
     "scientific": "Pteridium aquilinum",
     "sun": "Partial",
     "water": "Dry/Moist",
-    "height (ft)": 5,
-    "avail.": "L",
+    "height": 5,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -204,8 +204,8 @@
     "scientific": "Sedum spathulifolium",
     "sun": "Direct",
     "water": "Dry",
-    "height (ft)": 0.5,
-    "avail.": "M",
+    "height": 0.5,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -215,8 +215,8 @@
     "scientific": "Cornus unalaschkensis",
     "sun": "Shade",
     "water": "Moist/Wet",
-    "height (ft)": 1,
-    "avail.": "H",
+    "height": 1,
+    "avail": "H",
     "difficulty": "8/10"
   },
   {
@@ -226,8 +226,8 @@
     "scientific": "Camassia quamash",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 1,
-    "avail.": "M",
+    "height": 1,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -237,8 +237,8 @@
     "scientific": "Camassia leichtlinii",
     "sun": "Indirect",
     "water": "Moist",
-    "height (ft)": 2,
-    "avail.": "L",
+    "height": 2,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -248,8 +248,8 @@
     "scientific": "Penstemon serrulatus",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 3,
-    "avail.": "L",
+    "height": 3,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -259,8 +259,8 @@
     "scientific": "fritillaria lanceolata",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 3,
-    "avail.": "L",
+    "height": 3,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -270,8 +270,8 @@
     "scientific": "Grindelia stricta",
     "sun": "Direct",
     "water": "Dry/Moist",
-    "height (ft)": 3,
-    "avail.": "M",
+    "height": 3,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -281,8 +281,8 @@
     "scientific": "Lewisia columbiana",
     "sun": "Indirect",
     "water": "Dry",
-    "height (ft)": 0.5,
-    "avail.": "L",
+    "height": 0.5,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -292,8 +292,8 @@
     "scientific": "Campanula rotundifolia",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 2,
-    "avail.": "L",
+    "height": 2,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -303,8 +303,8 @@
     "scientific": "Stachys cooleyae",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 6,
-    "avail.": "M",
+    "height": 6,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -314,8 +314,8 @@
     "scientific": "Heracleum lanatum",
     "sun": "Partial",
     "water": "Moist/Wet",
-    "height (ft)": 8,
-    "avail.": "L",
+    "height": 8,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -325,8 +325,8 @@
     "scientific": "Blechnum spicant",
     "sun": "Shade",
     "water": "Moist",
-    "height (ft)": 2,
-    "avail.": "H",
+    "height": 2,
+    "avail": "H",
     "difficulty": "5/10"
   },
   {
@@ -336,8 +336,8 @@
     "scientific": "Aster subspicatus",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 3,
-    "avail.": "L",
+    "height": 3,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -347,8 +347,8 @@
     "scientific": "Cirsium edule",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 5,
-    "avail.": "L",
+    "height": 5,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -358,8 +358,8 @@
     "scientific": "Maianthemum dilatatum",
     "sun": "Partial",
     "water": "Moist/Wet",
-    "height (ft)": 1,
-    "avail.": "M",
+    "height": 1,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -369,8 +369,8 @@
     "scientific": "Smilacina racemosa",
     "sun": "Shade",
     "water": "Moist",
-    "height (ft)": 3,
-    "avail.": "M",
+    "height": 3,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -380,8 +380,8 @@
     "scientific": "Clarkia amoena",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 3,
-    "avail.": "H",
+    "height": 3,
+    "avail": "H",
     "difficulty": "3/10"
   },
   {
@@ -391,8 +391,8 @@
     "scientific": "Epilobium augustifolium",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 6,
-    "avail.": "L",
+    "height": 6,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -402,8 +402,8 @@
     "scientific": "Tiarella trifoliata",
     "sun": "Shade",
     "water": "Moist",
-    "height (ft)": 1,
-    "avail.": "L",
+    "height": 1,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -413,8 +413,8 @@
     "scientific": "Tellima grandiflora",
     "sun": "Shade",
     "water": "Moist",
-    "height (ft)": 1,
-    "avail.": "L",
+    "height": 1,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -424,8 +424,8 @@
     "scientific": "Aruncus sylvester",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 5,
-    "avail.": "H",
+    "height": 5,
+    "avail": "H",
     "difficulty": "5/10"
   },
   {
@@ -435,8 +435,8 @@
     "scientific": "Sisyrinchium californicum",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 1.5,
-    "avail.": "L",
+    "height": 1.5,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -446,8 +446,8 @@
     "scientific": "Solidago canadensis",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 4,
-    "avail.": "L",
+    "height": 4,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -457,8 +457,8 @@
     "scientific": "Potentilla gracilis",
     "sun": "Direct",
     "water": "Moist",
-    "height (ft)": 2,
-    "avail.": "L",
+    "height": 2,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -468,8 +468,8 @@
     "scientific": "Sidalcea hendersonii",
     "sun": "Direct",
     "water": "Moist/Wet",
-    "height (ft)": 5,
-    "avail.": "M",
+    "height": 5,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -479,8 +479,8 @@
     "scientific": "Vancouveria hexandra",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 1,
-    "avail.": "M",
+    "height": 1,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -490,8 +490,8 @@
     "scientific": "Arctostaphylos uva-ursi",
     "sun": "Indirect",
     "water": "Dry",
-    "height (ft)": 1,
-    "avail.": "H",
+    "height": 1,
+    "avail": "H",
     "difficulty": "5/10"
   },
   {
@@ -501,8 +501,8 @@
     "scientific": "Angelica genuflexa",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 5,
-    "avail.": "L",
+    "height": 5,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -512,8 +512,8 @@
     "scientific": "Athyrium filix-femina",
     "sun": "Partial",
     "water": "Moist/Wet",
-    "height (ft)": 4,
-    "avail.": "H",
+    "height": 4,
+    "avail": "H",
     "difficulty": "3/10"
   },
   {
@@ -523,8 +523,8 @@
     "scientific": "Polypodium glycyrrhiza",
     "sun": "Shade",
     "water": "Moist",
-    "height (ft)": 1.5,
-    "avail.": "L",
+    "height": 1.5,
+    "avail": "L",
     "difficulty": "8/10"
   },
   {
@@ -534,8 +534,8 @@
     "scientific": "Adiantum pedatum",
     "sun": "Shade",
     "water": "Moist/Wet",
-    "height (ft)": 2,
-    "avail.": "H",
+    "height": 2,
+    "avail": "H",
     "difficulty": "5/10"
   },
   {
@@ -545,8 +545,8 @@
     "scientific": "Urtica dioica",
     "sun": "Partial",
     "water": "Moist",
-    "height (ft)": 6,
-    "avail.": "L",
+    "height": 6,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -556,8 +556,8 @@
     "scientific": "Allium cernuum",
     "sun": "Direct",
     "water": "Dry/Moist",
-    "height (ft)": 1,
-    "avail.": "M",
+    "height": 1,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -567,8 +567,8 @@
     "scientific": "Gymnocarpium Dryopteris",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 1,
-    "avail.": "M",
+    "height": 1,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -578,8 +578,8 @@
     "scientific": "Iris tenax",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 1,
-    "avail.": "L",
+    "height": 1,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -589,8 +589,8 @@
     "scientific": "Oxalis oregana",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 0.5,
-    "avail.": "H",
+    "height": 0.5,
+    "avail": "H",
     "difficulty": "3/10"
   },
   {
@@ -600,8 +600,8 @@
     "scientific": "Hydrophyllum tenuipes",
     "sun": "Shade",
     "water": "Moist/Wet",
-    "height (ft)": 0.5,
-    "avail.": "L",
+    "height": 0.5,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -611,8 +611,8 @@
     "scientific": "Petasites frigidus var. palmatus",
     "sun": "Partial",
     "water": "Moist/Wet",
-    "height (ft)": 2,
-    "avail.": "L",
+    "height": 2,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -622,8 +622,8 @@
     "scientific": "Anaphalis margaritacea",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 2,
-    "avail.": "H",
+    "height": 2,
+    "avail": "H",
     "difficulty": "3/10"
   },
   {
@@ -633,8 +633,8 @@
     "scientific": "Tolmiea menziesii",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 1,
-    "avail.": "H",
+    "height": 1,
+    "avail": "H",
     "difficulty": "3/10"
   },
   {
@@ -644,8 +644,8 @@
     "scientific": "Goodyera oblongifolia",
     "sun": "shade",
     "water": "Moist",
-    "height (ft)": 0.5,
-    "avail.": "L",
+    "height": 0.5,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -655,8 +655,8 @@
     "scientific": "Corydalis scouleri",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 3,
-    "avail.": "L",
+    "height": 3,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -666,8 +666,8 @@
     "scientific": "Angelica lucida",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 5,
-    "avail.": "L",
+    "height": 5,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -677,8 +677,8 @@
     "scientific": "Erigeron speciosus",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 2,
-    "avail.": "L",
+    "height": 2,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -688,8 +688,8 @@
     "scientific": "potentilla anserina var.pacifica",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 1.5,
-    "avail.": "L",
+    "height": 1.5,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -699,8 +699,8 @@
     "scientific": "Heuchera micrantha var micrantha",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 2,
-    "avail.": "M",
+    "height": 2,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -710,8 +710,8 @@
     "scientific": "sedum divergens",
     "sun": "Direct",
     "water": "Dry",
-    "height (ft)": 0.5,
-    "avail.": "M",
+    "height": 0.5,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -721,8 +721,8 @@
     "scientific": "Smilacina stellata",
     "sun": "Partial",
     "water": "Moist/Wet",
-    "height (ft)": 3,
-    "avail.": "L",
+    "height": 3,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -732,8 +732,8 @@
     "scientific": "Viola glabella",
     "sun": "Shade",
     "water": "Moist/Wet",
-    "height (ft)": 0.5,
-    "avail.": "L",
+    "height": 0.5,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -743,8 +743,8 @@
     "scientific": "Lysichiton americanum",
     "sun": "Shade",
     "water": "Wet",
-    "height (ft)": 3,
-    "avail.": "M",
+    "height": 3,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -754,8 +754,8 @@
     "scientific": "Polystichum munitum",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 3,
-    "avail.": "H",
+    "height": 3,
+    "avail": "H",
     "difficulty": "3/10"
   },
   {
@@ -765,8 +765,8 @@
     "scientific": "Allium acuminatum",
     "sun": "Indirect",
     "water": "Dry",
-    "height (ft)": 1,
-    "avail.": "L",
+    "height": 1,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -776,8 +776,8 @@
     "scientific": "Armeria maritima",
     "sun": "Direct",
     "water": "Dry/Moist",
-    "height (ft)": 1,
-    "avail.": "H",
+    "height": 1,
+    "avail": "H",
     "difficulty": "3/10"
   },
   {
@@ -787,8 +787,8 @@
     "scientific": "Symphoricarpos mollis",
     "sun": "Partial",
     "water": "Dry/Moist",
-    "height (ft)": 3,
-    "avail.": "L",
+    "height": 3,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -798,8 +798,8 @@
     "scientific": "Trillium ovatum",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 1.5,
-    "avail.": "M",
+    "height": 1.5,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -809,8 +809,8 @@
     "scientific": "Linnaea borealis",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 0.5,
-    "avail.": "M",
+    "height": 0.5,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -820,8 +820,8 @@
     "scientific": "Achlys triphylla",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 1,
-    "avail.": "M",
+    "height": 1,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -831,8 +831,8 @@
     "scientific": "Sagittaria latifolia var. latifolia",
     "sun": "Indirect",
     "water": "Wet",
-    "height (ft)": 1.5,
-    "avail.": "L",
+    "height": 1.5,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -842,8 +842,8 @@
     "scientific": "Aquilegia formosa",
     "sun": "Indirect",
     "water": "Moist",
-    "height (ft)": 2,
-    "avail.": "L",
+    "height": 2,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -853,8 +853,8 @@
     "scientific": "Trientalis latifolia",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 0.5,
-    "avail.": "L",
+    "height": 0.5,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -864,8 +864,8 @@
     "scientific": "Asarum caudatum",
     "sun": "Shade",
     "water": "Moist",
-    "height (ft)": 0.5,
-    "avail.": "H",
+    "height": 0.5,
+    "avail": "H",
     "difficulty": "5/10"
   },
   {
@@ -875,8 +875,8 @@
     "scientific": "Fragaria virginiana",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 0.5,
-    "avail.": "M",
+    "height": 0.5,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -886,8 +886,8 @@
     "scientific": "Fragaria vesca",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 1,
-    "avail.": "M",
+    "height": 1,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -897,8 +897,8 @@
     "scientific": "Achillea millefolium",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 0,
-    "avail.": "H",
+    "height": 0,
+    "avail": "H",
     "difficulty": "3/10"
   },
   {
@@ -908,8 +908,8 @@
     "scientific": "Mimulus guttatus",
     "sun": "Partial",
     "water": "Moist/Wet",
-    "height (ft)": 2,
-    "avail.": "M",
+    "height": 2,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -919,8 +919,8 @@
     "scientific": "Rosa gymnocarpa",
     "sun": "Partial",
     "water": "Moist",
-    "height (ft)": 4,
-    "avail.": "M",
+    "height": 4,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -930,8 +930,8 @@
     "scientific": "Corylus cornuta var. californica",
     "sun": "Partial",
     "water": "Dry/Moist",
-    "height (ft)": 20,
-    "avail.": "M",
+    "height": 20,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -941,8 +941,8 @@
     "scientific": "Rubus leucodermis",
     "sun": "Partial",
     "water": "Moist",
-    "height (ft)": 7,
-    "avail.": "L",
+    "height": 7,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -952,8 +952,8 @@
     "scientific": "Ribes lacustre",
     "sun": "Partial",
     "water": "Moist/Wet",
-    "height (ft)": 5,
-    "avail.": "M",
+    "height": 5,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -963,8 +963,8 @@
     "scientific": "Sambucus caerulea",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 15,
-    "avail.": "M",
+    "height": 15,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -974,8 +974,8 @@
     "scientific": "Kalmia microphylla",
     "sun": "Indirect",
     "water": "Wet",
-    "height (ft)": 3,
-    "avail.": "M",
+    "height": 3,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -985,8 +985,8 @@
     "scientific": "Andromeda polifolia",
     "sun": "Indirect",
     "water": "Wet",
-    "height (ft)": 1.5,
-    "avail.": "M",
+    "height": 1.5,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -996,8 +996,8 @@
     "scientific": "Oplopanax horridus",
     "sun": "Partial",
     "water": "Moist/Wet",
-    "height (ft)": 9,
-    "avail.": "M",
+    "height": 9,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -1007,8 +1007,8 @@
     "scientific": "Vaccinium ovatum",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 6,
-    "avail.": "H",
+    "height": 6,
+    "avail": "H",
     "difficulty": "5/10"
   },
   {
@@ -1018,8 +1018,8 @@
     "scientific": "Arctostaphylos columbiana",
     "sun": "Direct",
     "water": "Dry",
-    "height (ft)": 15,
-    "avail.": "L",
+    "height": 15,
+    "avail": "L",
     "difficulty": "8/10"
   },
   {
@@ -1029,8 +1029,8 @@
     "scientific": "Viburnum edule",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 12,
-    "avail.": "L",
+    "height": 12,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -1040,8 +1040,8 @@
     "scientific": "Arctostaphylos X. media",
     "sun": "Direct",
     "water": "Dry",
-    "height (ft)": 3,
-    "avail.": "L",
+    "height": 3,
+    "avail": "L",
     "difficulty": "8/10"
   },
   {
@@ -1051,8 +1051,8 @@
     "scientific": "Oemlaria cerasiformis",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 15,
-    "avail.": "M",
+    "height": 15,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -1062,8 +1062,8 @@
     "scientific": "Mahonia nervosa",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 3,
-    "avail.": "H",
+    "height": 3,
+    "avail": "H",
     "difficulty": "5/10"
   },
   {
@@ -1073,8 +1073,8 @@
     "scientific": "Philadelphus lewisii",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 9,
-    "avail.": "M",
+    "height": 9,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1084,8 +1084,8 @@
     "scientific": "Rosa nutkana",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 10,
-    "avail.": "M",
+    "height": 10,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1095,8 +1095,8 @@
     "scientific": "Holodiscus discolor",
     "sun": "Partial",
     "water": "Dry/Moist",
-    "height (ft)": 15,
-    "avail.": "M",
+    "height": 15,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1106,8 +1106,8 @@
     "scientific": "paxistima myrsinites",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 3,
-    "avail.": "L",
+    "height": 3,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -1117,8 +1117,8 @@
     "scientific": "Physocarpus capitatus",
     "sun": "Partial",
     "water": "Moist/Wet",
-    "height (ft)": 13,
-    "avail.": "M",
+    "height": 13,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1128,8 +1128,8 @@
     "scientific": "Rhododendron macrophyllum",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 25,
-    "avail.": "M",
+    "height": 25,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -1139,8 +1139,8 @@
     "scientific": "Myrica californica",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 15,
-    "avail.": "M",
+    "height": 15,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1150,8 +1150,8 @@
     "scientific": "Sambucus racemosa",
     "sun": "Partial",
     "water": "Dry/Moist",
-    "height (ft)": 15,
-    "avail.": "M",
+    "height": 15,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1161,8 +1161,8 @@
     "scientific": "Vaccinium parvifolium",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 10,
-    "avail.": "M",
+    "height": 10,
+    "avail": "M",
     "difficulty": "8/10"
   },
   {
@@ -1172,8 +1172,8 @@
     "scientific": "Ceanothus sanguineum",
     "sun": "Direct",
     "water": "Dry",
-    "height (ft)": 10,
-    "avail.": "M",
+    "height": 10,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -1183,8 +1183,8 @@
     "scientific": "Ribes sanguineum",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 6,
-    "avail.": "H",
+    "height": 6,
+    "avail": "H",
     "difficulty": "5/10"
   },
   {
@@ -1194,8 +1194,8 @@
     "scientific": "Cornus sericea",
     "sun": "Partial",
     "water": "Moist/Wet",
-    "height (ft)": 15,
-    "avail.": "H",
+    "height": 15,
+    "avail": "H",
     "difficulty": "3/10"
   },
   {
@@ -1205,8 +1205,8 @@
     "scientific": "Gaultheria shallon",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 5,
-    "avail.": "H",
+    "height": 5,
+    "avail": "H",
     "difficulty": "5/10"
   },
   {
@@ -1216,8 +1216,8 @@
     "scientific": "Rubus spectabilis",
     "sun": "Partial",
     "water": "Moist/Wet",
-    "height (ft)": 10,
-    "avail.": "M",
+    "height": 10,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1227,8 +1227,8 @@
     "scientific": "Amelanchier alnifolia",
     "sun": "Partial",
     "water": "Dry/Moist",
-    "height (ft)": 20,
-    "avail.": "H",
+    "height": 20,
+    "avail": "H",
     "difficulty": "3/10"
   },
   {
@@ -1238,8 +1238,8 @@
     "scientific": "Symphoricarpos albus",
     "sun": "Partial",
     "water": "Dry/Moist",
-    "height (ft)": 5,
-    "avail.": "M",
+    "height": 5,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1249,8 +1249,8 @@
     "scientific": "Ceanothus velutinus",
     "sun": "Direct",
     "water": "Dry",
-    "height (ft)": 10,
-    "avail.": "L",
+    "height": 10,
+    "avail": "L",
     "difficulty": "8/10"
   },
   {
@@ -1260,8 +1260,8 @@
     "scientific": "Spiraea douglasii",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 12,
-    "avail.": "M",
+    "height": 12,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1271,8 +1271,8 @@
     "scientific": "Ribes bracteosum",
     "sun": "Partial",
     "water": "Moist/Wet",
-    "height (ft)": 5,
-    "avail.": "L",
+    "height": 5,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -1282,8 +1282,8 @@
     "scientific": "Spiraea densiflora",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 5,
-    "avail.": "M",
+    "height": 5,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -1293,8 +1293,8 @@
     "scientific": "Rosa pisocarpa",
     "sun": "Partial",
     "water": "Moist/Wet",
-    "height (ft)": 6,
-    "avail.": "L",
+    "height": 6,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -1304,8 +1304,8 @@
     "scientific": "Myrica gale",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 4.5,
-    "avail.": "L",
+    "height": 4.5,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -1315,8 +1315,8 @@
     "scientific": "Mahonia aquifolium",
     "sun": "Partial",
     "water": "Moist",
-    "height (ft)": 8,
-    "avail.": "H",
+    "height": 8,
+    "avail": "H",
     "difficulty": "3/10"
   },
   {
@@ -1326,8 +1326,8 @@
     "scientific": "Rubus parviflorus",
     "sun": "Partial",
     "water": "Dry/Moist",
-    "height (ft)": 8,
-    "avail.": "M",
+    "height": 8,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -1337,8 +1337,8 @@
     "scientific": "Lonicera involucrata",
     "sun": "Partial",
     "water": "Moist/Wet",
-    "height (ft)": 9,
-    "avail.": "L",
+    "height": 9,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -1348,8 +1348,8 @@
     "scientific": "Spirea betulifolia var. lucida",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 2,
-    "avail.": "L",
+    "height": 2,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -1359,8 +1359,8 @@
     "scientific": "Acer macrophyllum",
     "sun": "Partial",
     "water": "Dry/Moist",
-    "height (ft)": 100,
-    "avail.": "M",
+    "height": 100,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1370,8 +1370,8 @@
     "scientific": "Prunus emarginata",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 30,
-    "avail.": "M",
+    "height": 30,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -1381,8 +1381,8 @@
     "scientific": "Populus balsamifera",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 160,
-    "avail.": "M",
+    "height": 160,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1392,8 +1392,8 @@
     "scientific": "Crataegus douglasii",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 30,
-    "avail.": "M",
+    "height": 30,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -1403,8 +1403,8 @@
     "scientific": "Rhamnus purshiana",
     "sun": "Partial",
     "water": "Moist",
-    "height (ft)": 30,
-    "avail.": "M",
+    "height": 30,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -1414,8 +1414,8 @@
     "scientific": "Acer glabrum",
     "sun": "Indirect",
     "water": "Moist",
-    "height (ft)": 30,
-    "avail.": "M",
+    "height": 30,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1425,8 +1425,8 @@
     "scientific": "Pseudotsuga menziesii",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 250,
-    "avail.": "M",
+    "height": 250,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1436,8 +1436,8 @@
     "scientific": "Abies grandis",
     "sun": "Partial",
     "water": "Dry/Moist",
-    "height (ft)": 250,
-    "avail.": "H",
+    "height": 250,
+    "avail": "H",
     "difficulty": "5/10"
   },
   {
@@ -1447,8 +1447,8 @@
     "scientific": "Salix hookeriana",
     "sun": "Direct",
     "water": "Moist/Wet",
-    "height (ft)": 20,
-    "avail.": "L",
+    "height": 20,
+    "avail": "L",
     "difficulty": "3/10"
   },
   {
@@ -1458,8 +1458,8 @@
     "scientific": "Arbutus menziesii",
     "sun": "Indirect",
     "water": "Dry",
-    "height (ft)": 90,
-    "avail.": "M",
+    "height": 90,
+    "avail": "M",
     "difficulty": "8/10"
   },
   {
@@ -1469,8 +1469,8 @@
     "scientific": "Fraxinus latifolia",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 70,
-    "avail.": "M",
+    "height": 70,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -1480,8 +1480,8 @@
     "scientific": "Quercus garryana",
     "sun": "Indirect",
     "water": "Dry",
-    "height (ft)": 75,
-    "avail.": "L",
+    "height": 75,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -1491,8 +1491,8 @@
     "scientific": "Malus fusca",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 40,
-    "avail.": "L",
+    "height": 40,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -1502,8 +1502,8 @@
     "scientific": "Cornus nuttallii",
     "sun": "part shade",
     "water": "Dry/Moist",
-    "height (ft)": 60,
-    "avail.": "M",
+    "height": 60,
+    "avail": "M",
     "difficulty": "8/10"
   },
   {
@@ -1513,8 +1513,8 @@
     "scientific": "Salix lasiandra",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 40,
-    "avail.": "M",
+    "height": 40,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1524,8 +1524,8 @@
     "scientific": "Betula papyrifera",
     "sun": "Indirect",
     "water": "Moist",
-    "height (ft)": 90,
-    "avail.": "M",
+    "height": 90,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -1535,8 +1535,8 @@
     "scientific": "Populus tremuloides",
     "sun": "Direct",
     "water": "Moist/Wet",
-    "height (ft)": 60,
-    "avail.": "M",
+    "height": 60,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1546,8 +1546,8 @@
     "scientific": "Alnus rubra",
     "sun": "Indirect",
     "water": "Moist",
-    "height (ft)": 120,
-    "avail.": "M",
+    "height": 120,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1557,8 +1557,8 @@
     "scientific": "Pinus contorta var. contorta",
     "sun": "Indirect",
     "water": "Moist",
-    "height (ft)": 50,
-    "avail.": "M",
+    "height": 50,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1568,8 +1568,8 @@
     "scientific": "Picea sitchensis",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 200,
-    "avail.": "M",
+    "height": 200,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -1579,8 +1579,8 @@
     "scientific": "Salix sitchensis",
     "sun": "Indirect",
     "water": "Moist/Wet",
-    "height (ft)": 30,
-    "avail.": "M",
+    "height": 30,
+    "avail": "M",
     "difficulty": "3/10"
   },
   {
@@ -1590,8 +1590,8 @@
     "scientific": "Alnus viridis",
     "sun": "Indirect",
     "water": "Moist",
-    "height (ft)": 30,
-    "avail.": "L",
+    "height": 30,
+    "avail": "L",
     "difficulty": "5/10"
   },
   {
@@ -1601,8 +1601,8 @@
     "scientific": "Acer circinatum",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 25,
-    "avail.": "H",
+    "height": 25,
+    "avail": "H",
     "difficulty": "3/10"
   },
   {
@@ -1612,8 +1612,8 @@
     "scientific": "Tsuga heterophylla",
     "sun": "Shade",
     "water": "Moist/Wet",
-    "height (ft)": 225,
-    "avail.": "M",
+    "height": 225,
+    "avail": "M",
     "difficulty": "5/10"
   },
   {
@@ -1623,8 +1623,8 @@
     "scientific": "Thuja plicata",
     "sun": "Shade",
     "water": "Moist/Wet",
-    "height (ft)": 200,
-    "avail.": "H",
+    "height": 200,
+    "avail": "H",
     "difficulty": "5/10"
   },
   {
@@ -1634,8 +1634,8 @@
     "scientific": "Pinus monticola",
     "sun": "Indirect",
     "water": "Dry/Moist",
-    "height (ft)": 130,
-    "avail.": "L",
+    "height": 130,
+    "avail": "L",
     "difficulty": "8/10"
   },
   {
@@ -1645,8 +1645,8 @@
     "scientific": "Taxus brevifolia",
     "sun": "Shade",
     "water": "Dry/Moist",
-    "height (ft)": 40,
-    "avail.": "M",
+    "height": 40,
+    "avail": "M",
     "difficulty": "8/10"
   }
 ]

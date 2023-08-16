@@ -3,6 +3,17 @@ import './WateringSchedule.css';
 
 export default function WateringSchedule(props){
     const { myList } = props;
+    
+      // loop through weeks easier?
+
+      const imageInWeek = myList.map((plant, index) => (
+        <div key={index} className="grid-item">
+          <div className="plant-card">
+            <div className="name">{plant.name}</div>
+            <img src="./img/plant.png" alt="A green plant in a yellow pot" />
+          </div>
+        </div>
+      ))
 
     return (
         <section className="WateringSchedule">
@@ -37,28 +48,14 @@ export default function WateringSchedule(props){
               <div className="weekday-num">
                 <p>Week 1</p>
               </div>
-              {myList.map((plant, index) => (
-                <div key={index} className="grid-item">
-                  <div className="plant-card">
-                    <div className="name">{plant.name}</div>
-                    <img src="./img/plant.png" alt="A green plant in a yellow pot" />
-                  </div>
-                </div>
-              ))}
+              {imageInWeek}
             </div>
     
             <div className="grid">
               <div className="weekday-num">
                 <p>Week 2</p>
               </div>
-              {myList.map((plant, index) => (
-                <div key={index} className="grid-item">
-                  <div className="plant-card">
-                    <div className="name">{plant.name}</div>
-                    <img src="./img/plant.png" alt="A green plant in a yellow pot" />
-                  </div>
-                </div>
-              ))}
+              {imageInWeek}
             </div>
           </div>
         </section>
