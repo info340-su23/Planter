@@ -1,36 +1,57 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import WateringSchedule from '../components/WateringSchedule'
 import './Plants.css'
 import { MyList, EasyToCare, GreatForIndoors } from '../components/PlantLists';
 import { PlantCardDetails } from '../components/PlantCardDetails.js';
 
-export default function Plants(props) {
+export default function Plants() {
   const [myList, setMyList] = useState([]);
-  const [indoorsArray, setIndoorsArray] = useState(props.plants.filter(plant => plant.sun === 'Indirect'));
-  const [easyCareArray, setEasyCareArray] = useState(props.plants.filter(plant => plant.difficulty === '3/10'));
+  const [indoorsArray, setIndoorsArray] = useState([]);
+  const [easyCareArray, setEasyCareArray] = useState([]);
   const [isPopupOpen, setPopupOpen] = useState(false);
 
+  // Set a default for the filtered data
+  useEffect(() => {
+    // Fetching data from the public folder
+    fetch("/seattleplants.json")
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        setIndoorsArray(data.filter(data.sun === 'Indirect'));
+        setEasyCareArray(data.filter(data.difficulty === '3/10'));
+      })
+      .catch(function (error) {
+        console.error(error);
+      });
+  }, []);
+
+  // add to My List if there there's less than seven spots
+  // checks to make sure there's no repetition
   const addToMyList = (plant) => {
     if (myList.length < 7) {
-      setMyList(prevList => [...prevList, plant]);
-      setIndoorsArray(prevArray => prevArray.filter(item => item.name !== plant.name));
-      setEasyCareArray(prevArray => prevArray.filter(item => item.name !== plant.name));
+      setMyList([...myList, plant]);
+      setIndoorsArray(indoorsArray.filter(item => item.name !== plant.name));
+      setEasyCareArray(easyCareArray.filter(item => item.name !== plant.name));
     } else {
       alert('You have reached the maximum number of plants (7)');
     }
   };
 
+  // removes from My List
+  // checks to make sure there's no repetition
   const removeFromMyList = (plant) => {
-    setMyList(prevList => prevList.filter(item => item.name !== plant.name));
+    setMyList(myList.filter(item => item.name !== plant.name));
     if (plant.sun === 'Indirect') {
-      setIndoorsArray(prevArray => [...prevArray, plant]);
+      setIndoorsArray([...indoorsArray, plant]);
     } else if (plant.difficulty === '3/10') {
-      setEasyCareArray(prevArray => [...prevArray, plant]);
+      setEasyCareArray([...easyCareArray, plant]);
     }
   };
 
-  const handleCardClick = (plant) => {
-    setPopupOpen(prevPopupOpen => !prevPopupOpen);
+  // switches between letting more information on the cards show or not
+  const handleCardInfo = () => {
+    setPopupOpen(!isPopupOpen);
   };
 
   return (
@@ -46,21 +67,21 @@ export default function Plants(props) {
           myList={myList}
           handleClick={addToMyList}
           handleRemoveFromList={removeFromMyList}
-          handleCardClick={handleCardClick}
+          handleCardInfo={handleCardInfo}
           isPopupOpen={isPopupOpen} 
         />
         <GreatForIndoors
           indoorsArray={indoorsArray}
           handleClick={addToMyList}
           setIndoorsArray={setIndoorsArray}
-          handleCardClick={handleCardClick}
+          handleCardInfo={handleCardInfo}
           isPopupOpen={isPopupOpen} 
         />
         <EasyToCare
           easyCareArray={easyCareArray}
           handleClick={addToMyList}
           setEasyCareArray={setEasyCareArray}
-          handleCardClick={handleCardClick}
+          handleCardInfo={handleCardInfo}
           isPopupOpen={isPopupOpen} 
         />
       </div>

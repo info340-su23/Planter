@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './pages/App';
-import seattleData from './data/seattleplants.json';
+import { BrowserRouter } from 'react-router-dom';
+import 'whatwg-fetch';
 // import reportWebVitals from './reportWebVitals';
 
 // Import the functions you need from the SDKs you need
@@ -27,9 +28,11 @@ initializeApp(firebaseConfig);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App plants={seattleData}/>
-  </React.StrictMode>
+    <React.StrictMode>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

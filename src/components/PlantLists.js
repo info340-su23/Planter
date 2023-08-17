@@ -3,7 +3,7 @@ import './PlantLists.css';
 import { PlantCard } from './SinglePlantCard.js';
 
 export function MyList(props) {
-  const { myList, handleClick, handleRemoveFromList, handleCardClick, isPopupOpen } = props;
+  const { myList, handleClick, handleRemoveFromList, handleCardInfo, isPopupOpen } = props;
 
   const myListCard = myList.map((plant, index) => (
     <PlantCard
@@ -12,7 +12,7 @@ export function MyList(props) {
       inMyList={true}
       handleClick={handleClick}
       handleRemoveFromList={handleRemoveFromList}
-      handleCardClick={handleCardClick}
+      handleCardInfo={handleCardInfo}
       isPopupOpen={isPopupOpen}
     />
   ))
@@ -28,7 +28,7 @@ export function MyList(props) {
 }
 
 export function GreatForIndoors(props) {
-    const { indoorsArray, handleClick, setIndoorsArray, handleCardClick, isPopupOpen } = props;
+    const { indoorsArray, handleClick, setIndoorsArray, handleCardInfo, isPopupOpen } = props;
 
     const handleRemoveFromIndoors = (plant) => {
         setIndoorsArray(indoorsArray.filter((item) => item.name !== plant.name));
@@ -41,7 +41,7 @@ export function GreatForIndoors(props) {
             inMyList={false}
             handleClick={handleClick}
             handleRemoveFromList={handleRemoveFromIndoors}
-            handleCardClick={handleCardClick}
+            handleCardInfo={handleCardInfo}
             isPopupOpen={isPopupOpen}
         />
     ))
@@ -57,7 +57,7 @@ export function GreatForIndoors(props) {
 }
 
 export function EasyToCare(props) {
-    const { easyCareArray, handleClick, setEasyCareArray, handleCardClick, isPopupOpen } = props;
+    const { easyCareArray, handleClick, setEasyCareArray, handleCardInfo, isPopupOpen } = props;
 
     const handleRemoveFromEasyCare = (plant) => {
         setEasyCareArray(easyCareArray.filter((item) => item.name !== plant.name));
@@ -70,7 +70,7 @@ export function EasyToCare(props) {
           inMyList={false}
           handleClick={handleClick}
           handleRemoveFromList={handleRemoveFromEasyCare}
-          handleCardClick={handleCardClick}
+          handleCardInfo={handleCardInfo}
           isPopupOpen={isPopupOpen}
       />
   ))

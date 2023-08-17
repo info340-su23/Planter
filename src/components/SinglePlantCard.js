@@ -3,7 +3,7 @@ import './PlantLists.css';
 import { PlantCardDetails } from './PlantCardDetails';
 
 export function PlantCard(props) {
-  const { plant, inMyList, handleRemoveFromList, handleClick, handleCardClick, isPopupOpen } = props;
+  const { plant, inMyList, handleRemoveFromList, handleClick, handleCardInfo, isPopupOpen } = props;
 
   const handleIconClick = event => {
     event.preventDefault();
@@ -12,10 +12,6 @@ export function PlantCard(props) {
     } else {
       handleClick(plant);
     }
-  };
-
-  const handleViewClick = event => {
-    handleCardClick();
   };
 
   return (
@@ -52,7 +48,7 @@ export function PlantCard(props) {
           <div className="type">difficulty</div>
         </div>
       </div>
-      <button className="view-button" onClick={handleViewClick}>
+      <button className="view-button" onClick={handleCardInfo}>
         {isPopupOpen ? "View Less" : "View More"}
       </button>
       {isPopupOpen && (

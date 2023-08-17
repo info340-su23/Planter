@@ -23,6 +23,8 @@
   .nav-right {
     justify-content: flex-end;
     margin-right: 4rem;
+    color: white;
+    text-decoration: none;
   }
   
   .logo {
@@ -50,7 +52,7 @@
     color: #f0f0f0;
     border-bottom: 0.25rem solid #f0f0f0;
   }  
-  li a:hover, .potted-plant:hover {
+  nav ul .nav-right:hover, .potted-plant:hover {
       color: #f0f0f0;
       border-bottom: 0.5rem solid #f0f0f0;
       transition: .25s ease-out;
