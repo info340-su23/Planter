@@ -18,8 +18,8 @@ export default function Plants() {
         return response.json();
       })
       .then(function (data) {
-        setIndoorsArray(data.filter(data.sun === 'Indirect'));
-        setEasyCareArray(data.filter(data.difficulty === '3/10'));
+        setIndoorsArray(data.filter(plant => plant.sun === 'Indirect'));
+        setEasyCareArray(data.filter(plant => plant.difficulty === '3/10'));
       })
       .catch(function (error) {
         console.error(error);
