@@ -9,7 +9,7 @@ export default function WateringSchedule(props){
         <div key={index} className="grid-item">
           <div className="plant-card">
             <div className="name">{plant.name}</div>
-            <img src="./img/plant.png" alt="A green plant in a yellow pot" />
+            <img className="schedule-img" src={plant.image} alt="a plant" />
           </div>
         </div>
       ))
