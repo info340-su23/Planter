@@ -103,3 +103,7 @@
   .inner-card > p {
     padding: 0.5rem 1rem;
   }
+
+  .plantcard-img{
+    border-radius: 10px;
+  }

@@ -24,7 +24,7 @@ export function PlantCard(props) {
             </span>
           </a>
         </div>
-        <img src="./img/plant.png" alt="A green plant in a yellow pot" />
+        <img className="plantcard-img" src={plant.image} alt="a plant" />
         <div className="plant-type">
           <div className="name">{plant.name}</div>
           <div className="desc">{plant.scientific}</div>
