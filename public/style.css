@@ -684,6 +684,13 @@ footer p:last-child {
   font-weight: 600;
 }
 
+.post-acc-icon {
+  height: 36px;
+  width: 36px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
 /* POSTED DONE */
 
 @media (min-width: 992px) {
