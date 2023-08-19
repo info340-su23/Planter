@@ -1,9 +1,9 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 body {
-    font-family: 'Nunito', Arial, sans-serif;
+  font-family: 'Nunito', Arial, sans-serif;
 }
 
 .wrapper {
@@ -58,22 +58,24 @@ ul {
 }
 
 /*nav icons*/
-li, .potted-plant {
-    color: white;
-    display: inline;
-    margin: 0 1rem;
+li,
+.potted-plant {
+  color: white;
+  display: inline;
+  margin: 0 1rem;
 }
 
-li a:hover, .potted-plant:hover {
-    color: #f0f0f0;
-    border-bottom: 0.25rem solid #f0f0f0;
-    transition: .25s ease-out;
+li a:hover,
+.potted-plant:hover {
+  color: #f0f0f0;
+  border-bottom: 0.25rem solid #f0f0f0;
+  transition: .25s ease-out;
 }
 
 /*icons*/
 li a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .potted-plant {
@@ -83,8 +85,8 @@ li a {
 /* -- HEADER -- */
 
 header {
-    color: black;
-    padding-bottom: 0.5rem;
+  color: black;
+  padding-bottom: 0.5rem;
 }
 
 /* -- WATERING SCHEDULE -- */
@@ -109,7 +111,8 @@ header {
   align-items: center;
 }
 
-.plant-card, .blank-card {
+.plant-card,
+.blank-card {
   height: 184px;
   width: 164px;
   background-color: #E7E7E7;
@@ -125,7 +128,7 @@ header {
   color: #9a9a9a;
 }
 
-.plant-card > img {
+.plant-card>img {
   padding-top: 16px;
   padding-bottom: 16px;
 }
@@ -144,96 +147,100 @@ header {
   text-align: center;
 }
 
-.weekday-name, .weekday-num {
+.weekday-name,
+.weekday-num {
   font-size: 12px;
   font-weight: bold;
 }
 
 @media (max-width: 1080px) {
   .calendar {
-      overflow-x: auto;
-      width: auto;
-      display: flex;
-      flex-wrap: nowrap;
-      height: 300px;
+    overflow-x: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 300px;
   }
 }
 
 /* -- CARDS -- */
 
 .card-container {
-    text-align: center;
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    justify-content: left;
-    height: 100%;
-    padding-bottom: 2.5rem;
-  }
+  text-align: center;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: left;
+  height: 100%;
+  padding-bottom: 2.5rem;
+}
 
-  .card-container > a {
-    color: #505050;
-  }
+.card-container>a {
+  color: #505050;
+}
 
 .outter-card {
-    flex: 0 0 270px;
-    background-color: #F0F0F0;
-    margin: 0.5rem;
-    border-radius: 10px;
-    box-shadow:
-      0 1px 3px rgba(0, 0, 0, 0.16),
-      0 1px 3px rgba(0, 0, 0, 0.23);
-  }
+  flex: 0 0 270px;
+  background-color: #F0F0F0;
+  margin: 0.5rem;
+  border-radius: 10px;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.16),
+    0 1px 3px rgba(0, 0, 0, 0.23);
+}
 
-  .outter-card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+.outter-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
-  .inner-card {
-    flex: 0 0 80px;
-    background-color: #E7E7E7;
-    margin: 0.5rem;
-    border-radius: 10px;
-  }
+.inner-card {
+  flex: 0 0 80px;
+  background-color: #E7E7E7;
+  margin: 0.5rem;
+  border-radius: 10px;
+}
 
-  /* add icon above image*/
-  .playlist-add, .playlist-remove {
-    text-align: right;
-    padding-right: 0.5rem;
-    padding-top: 0.5rem;
-    color: #505050;
-  }
+/* add icon above image*/
+.playlist-add,
+.playlist-remove {
+  text-align: right;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  color: #505050;
+}
 
-  .playlist-add:hover, .playlist-remove:hover, .interact:hover {
-    color: #9a9a9a;
-    cursor: pointer;
-  }
+.playlist-add:hover,
+.playlist-remove:hover,
+.interact:hover {
+  color: #9a9a9a;
+  cursor: pointer;
+}
 
-  /* icons at bottom of card */
-  .bottom-icons-container {
-    margin: 1rem;
-    grid-area: stats; 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    border-radius: 0 0 15px 15px;
+/* icons at bottom of card */
+.bottom-icons-container {
+  margin: 1rem;
+  grid-area: stats;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-radius: 0 0 15px 15px;
 }
 
 .bottom-icons-container .sunlight .water {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-    padding:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
 }
 
 .water-icon {
-    color: #3780D6;
+  color: #3780D6;
 }
 
 .sun-icon {
-    color: #FFBA08;
+  color: #FFBA08;
 }
 
 /* adjusting font sizes at bottom*/
@@ -242,7 +249,8 @@ header {
   font-weight: bold;
 }
 
-.type, .desc {
+.type,
+.desc {
   font-size: 11px;
 }
 
@@ -257,45 +265,45 @@ header {
 }
 
 /*text in card*/
-  .outter-card >  p {
-    padding: 0.5rem 1rem;
-    justify-content: center;
-  }
+.outter-card>p {
+  padding: 0.5rem 1rem;
+  justify-content: center;
+}
 
-  .inner-card > p {
-    padding: 0.5rem 1rem;
-  }
+.inner-card>p {
+  padding: 0.5rem 1rem;
+}
 
 /*media query*/
-  @media (max-width: 767px ) {
-    .grid-item {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .card-container {
-      flex-direction: column;
-    }
-
-    .name {
-      font-size: 18px;
-    }
-
-    .desc {
-      font-size: 16px;
-    }
-    
-    .type {
-      font-size: 18px;
-    }
+@media (max-width: 767px) {
+  .grid-item {
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (min-width: 768px) {
-    .grid_item  {
-      grid-template-columns: repeat(3, 1fr);
-    }
+  .card-container {
+    flex-direction: column;
   }
 
-  /* GRID CREDIT: https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe */
+  .name {
+    font-size: 18px;
+  }
+
+  .desc {
+    font-size: 16px;
+  }
+
+  .type {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid_item {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* GRID CREDIT: https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe */
 
 /* -- FOOTER -- */
 
@@ -315,7 +323,7 @@ footer {
   font-size: 14px;
   color: white;
   display: inline;
-} 
+}
 
 /*hyper link*/
 footer a {
@@ -342,7 +350,7 @@ footer p:last-child {
 /* Home page content */
 .hp-card-container {
   background-color: white;
-  width:240px;
+  width: 240px;
   text-align: center;
   justify-content: center;
   padding: 24px;
@@ -441,14 +449,14 @@ footer p:last-child {
   border-radius: 10px;
 }
 
-.search-bar button{
+.search-bar button {
   border-radius: 10px;
   border: none;
   background-color: transparent;
 }
 
 .search-bar button:hover {
-  background-color:  #E7E7E7;
+  background-color: #E7E7E7;
 }
 
 /* FILTER/TAGS SECTION */
@@ -457,7 +465,7 @@ footer p:last-child {
   margin: auto;
 }
 
-.filters{
+.filters {
   width: 100%;
   height: 64px;
   white-space: nowrap;
@@ -481,7 +489,8 @@ footer p:last-child {
 .tag {
   display: inline-flex;
   align-items: center;
-  margin-right: 32px; /* Spacing between each tag */
+  margin-right: 32px;
+  /* Spacing between each tag */
   padding: 5px;
   border-radius: 5px;
   border: none;
@@ -489,39 +498,40 @@ footer p:last-child {
   cursor: pointer;
 }
 
-.events{
+.events {
   background-color: #FFC84B;
 }
 
-.tips{
+.tips {
   background-color: #597B49;
   color: white;
 }
 
-.sale{
+.sale {
   background-color: #D9BCB8;
 }
 
-.help{
+.help {
   background-color: #D1806B;
 }
 
-.sustainbility{
+.sustainbility {
   background-color: #699FE0;
 }
 
-.progress{
+.progress {
   background-color: #A6CDCC;
 }
 
-.bookmark{
+.bookmark {
   background-color: white;
-  color:#3F3F3F;
+  color: #3F3F3F;
   margin-right: 0;
   margin-left: auto;
 }
 
-.tag:hover, .post:hover {
+.tag:hover,
+.post:hover {
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -540,7 +550,7 @@ footer p:last-child {
   padding: 16px;
 }
 
-.post-container input[type=text]{
+.post-container input[type=text] {
   border: 1.5px solid #DADADADA;
   font-size: 15px;
   border-radius: 10px;
@@ -562,10 +572,10 @@ footer p:last-child {
   margin-bottom: 1px;
 }
 
-.account-icon span{
+.account-icon span {
   font-size: 40px;
   text-align: center;
-  color:#3F3F3F;
+  color: #3F3F3F;
 }
 
 .title-box {
@@ -587,7 +597,7 @@ footer p:last-child {
   padding-bottom: 120px;
 }
 
-.text-box input[type="text"]  {
+.text-box input[type="text"] {
   padding-top: 10px;
   margin-top: 10px;
 }
@@ -615,7 +625,7 @@ footer p:last-child {
 
 /* POSTED  */
 
-.posted{
+.posted {
   background-color: white;
   border: none;
   margin: 24px;
@@ -628,7 +638,7 @@ footer p:last-child {
 }
 
 /* section 1 container */
-.post-header{
+.post-header {
   width: 100%;
   display: flex;
   align-items: center;
@@ -643,13 +653,13 @@ footer p:last-child {
 }
 
 /* account icon */
-.post-header span{
+.post-header span {
   font-size: 32px;
-  color:#3F3F3F;
+  color: #3F3F3F;
   margin-right: 4px;
 }
 
-.right-tags .tag{
+.right-tags .tag {
   margin-right: 0;
   margin-left: 16px;
 }
@@ -678,7 +688,7 @@ footer p:last-child {
 
 @media (min-width: 992px) {
   .left-tags {
-      flex-direction: row;
+    flex-direction: row;
   }
 
   /* .forum {

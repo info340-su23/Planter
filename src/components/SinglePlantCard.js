@@ -1,5 +1,5 @@
 import React from 'react'
-import './PlantLists.css';
+import '../index.css'
 import { PlantCardDetails } from './PlantCardDetails';
 
 export function PlantCard(props) {

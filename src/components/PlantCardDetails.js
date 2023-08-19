@@ -1,5 +1,5 @@
 import React from 'react';
-import './PlantCardDetails.css';
+import '../index.css'
 
 export function PlantCardDetails(props) {
   const { height, avail, type } = props;
