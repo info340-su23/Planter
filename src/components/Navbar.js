@@ -1,7 +1,7 @@
 import '../index.css'
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
-export default function Navbar( {onLogOut, currentUser}) {
+export default function Navigation( {onLogOut, currentUser}) {
   const isHomePage = window.location.pathname === '/home';
   return (
     <Navbar expand="lg" className="nav">
