@@ -46,14 +46,15 @@ export function GreatForIndoors(props) {
     />
   ))
 
-  return (
-    <div>
-      <h2>Great for Indoors</h2>
-      <div className="card-container">
-        {indoorCard}
-      </div>
-    </div>
-  );
+    return (
+        <div className="plant-sections">
+            <h2>Great for Indoors</h2>
+            <p>These plants only require indirect sunlight, meaning you can have these plants in your lovely home</p>
+            <div className="card-container">
+                {indoorCard}
+            </div>
+        </div>
+    );
 }
 
 export function EasyToCare(props) {
@@ -75,12 +76,13 @@ export function EasyToCare(props) {
     />
   ))
 
-  return (
-    <div>
-      <h2>Easy to Care</h2>
-      <div className="card-container">
-        {easyCareCard}
-      </div>
-    </div>
-  );
+    return (
+        <div className="plant-sections">
+            <h2>Easy to Care</h2>
+            <p>With a low difficulty score, these plants are great for beginners or those who want to have as much leisure as their plants.</p>
+            <div className="card-container">
+                {easyCareCard}
+            </div>
+        </div>
+    );
 }

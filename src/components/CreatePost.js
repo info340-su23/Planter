@@ -23,10 +23,6 @@ export default function CreatePost({ setPosts, posts, currentUser, auth }) {
     }
 
     const handlePostSubmit = () => {
-        console.log("handlePostSubmit triggered");
-        console.log("Title as:", title);
-        console.log("Body:", body);
-        console.log("User:", currentUser);
         if (currentUser && title && body) {
 
             const db = getDatabase();
@@ -59,7 +55,7 @@ export default function CreatePost({ setPosts, posts, currentUser, auth }) {
                 <div className="title-row">
                     {/* <!-- Account icon --> */}
                     <div className="account-icon">
-                        <span className="material-icons" aria-label="account_circle">account_circle</span>
+                        <img className="post-acc-icon" src={currentUser.photoURL} alt="User Icon" />           
                     </div>
 
                     {/* <!-- Title input --> */}

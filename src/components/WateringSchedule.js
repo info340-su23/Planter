@@ -22,15 +22,16 @@ export default function WateringSchedule(props) {
     </div>
   ));
 
-  return (
-    <section className="WateringSchedule">
-      <h2> My Watering Schedule</h2>
-      <div className="calendar">
-        <div className="grid">
-          <div className="weekday-name">
-            <p> </p>
-          </div>
-          {weekArray}
+      return (
+        <section className="WateringSchedule">
+            <h2>My Watering Schedule</h2>
+            <p>As you add plants to your list, a recommended watering schedule will appear here!</p>
+            <div className="calendar">
+                <div className="grid">
+                    <div className="weekday-name">
+                        <p> </p>
+                    </div>
+                    {weekArray}
 
           <div className="weekday-num">
             <p>Week 1</p>

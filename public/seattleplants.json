@@ -7,9 +7,11 @@
     "sun": "Partial",
     "water": "Dry/Moist",
     "height": 0.5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10",
     "image": "/img/RubusursinusfruitMDQCX.jpg"
+    "alt": "A small group of blackberries in the center, three purple and the others varying in red and yellows. They're surrounded by leaves."
+
   },
   {
     "type": "Vine",
@@ -19,9 +21,10 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 0.5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10",
-    "image": "/img/LonicerahispidulaleaLZQZW.jpg"
+    "image": "/img/LonicerahispidulaleaLZQZW.jpg",
+    "alt": "A plant with circular, green leave in the foreground. Behind it is a gravelly surface."
   },
   {
     "type": "Grass-like",
@@ -31,7 +34,7 @@
     "sun": "Partial",
     "water": "Wet",
     "height": 2,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10",
     "image": "/img/Juncusensifoliusfoli.jpg"
   },
@@ -43,9 +46,10 @@
     "sun": "Partial",
     "water": "Moist",
     "height": 2,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10",
-    "image": "/img/Carexdeweyana.jpg"
+    "image": "/img/Carexdeweyana.jpg",
+    "alt": "A green, grass-like plant with sparse circular leaves behind it."
   },
   {
     "type": "Grass-like",
@@ -55,9 +59,10 @@
     "sun": "Indirect",
     "water": "Moist",
     "height": 3,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10",
-    "image": "/img/deschampsiacespitosaINRQV.jpg"
+    "image": "/img/deschampsiacespitosaINRQV.jpg",
+    "alt": "A green, grass-like plant with sparse circular leaves behind it."
   },
   {
     "type": "Groundcover",
@@ -67,9 +72,11 @@
     "sun": "Indirect",
     "water": "Dry",
     "height": 1,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10",
-    "image": "/img/fragariachiloensisYRNCP.jpg"
+    "image": "/img/fragariachiloensisYRNCP.jpg",
+    "alt": "A patch of small, circular leaves with white flowers in the center."
+
   },
   {
     "type": "Groundcover",
@@ -79,9 +86,10 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 1.5,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10",
-    "image": "/img/DicentraformosainbloBQDJR.jpg"
+    "image": "/img/DicentraformosainbloBQDJR.jpg",
+    "alt": "Green, long and sharp leaves with pink flowers embedded in them."
   },
   {
     "type": "Groundcover",
@@ -91,9 +99,10 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 2,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10",
-    "image": "./img/RubusursinusfruitMDQCX.jpg"
+    "image": "./img/RubusursinusfruitMDQCX.jpg",
+    "alt": "A small group of blackberries in the center, three purple and the others varying in red and yellows. They're surrounded by leaves."
   },
   {
     "type": "Groundcover",
@@ -103,9 +112,10 @@
     "sun": "Partial",
     "water": "Dry/Moist",
     "height": 5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10",
-    "image": "/img/SisyrinchiumidahoensWZWBO.jpg"
+    "image": "/img/SisyrinchiumidahoensWZWBO.jpg",
+    "alt": "A small, light purple flower with a yellow center in the middle with stems surrounding it."
   },
   {
     "type": "Groundcover",
@@ -115,9 +125,10 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 1,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10",
-    "image": "/img/CamaswithdicentraandLEDFD.jpg"
+    "image": "/img/CamaswithdicentraandLEDFD.jpg",
+    "alt": "A purple flower with sparse petals. It is surrounded by a patch of pink, droopy flowers."
   },
   {
     "type": "Groundcover",
@@ -127,9 +138,10 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 3,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10",
-    "image": "/img/PenstemonserrulatusXJUBR.jpg"
+    "image": "/img/PenstemonserrulatusXJUBR.jpg",
+    "alt": "A small, pink flower with little petals. In the background are more flowers of the same kind."
   },
   {
     "type": "Groundcover",
@@ -139,9 +151,10 @@
     "sun": "Indirect",
     "water": "Dry",
     "height": 0.5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10",
-    "image": "/img/LewisiacolumbianabloCPSMI.jpg"
+    "image": "/img/LewisiacolumbianabloCPSMI.jpg",
+    "alt": "Four small, pink flowers with dainty petals. There are grass and leaves surrounding them."
   },
   {
     "type": "Shrub",
@@ -151,9 +164,10 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 10,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10",
-    "image": "/img/rosanutkanaflowerGIXTA.jpg"
+    "image": "/img/rosanutkanaflowerGIXTA.jpg",
+    "alt": "Three pink flower with large petals and yellow centers. In the background are small leaves."
   },
   {
     "type": "Tree",
@@ -163,9 +177,10 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 250,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10",
-    "image": "/img/PseudotsugamenziesiiZBXFZ.jpg"
+    "image": "/img/PseudotsugamenziesiiZBXFZ.jpg",
+    "alt": "A tall, green and prickly tree in the center. It is surrounded by similar trees."
   },
   {
     "type": "Tree",
@@ -175,8 +190,9 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 130,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "8/10",
-    "image": "/img/PinusmonticolaCJSEU.jpg"
+    "image": "/img/PinusmonticolaCJSEU.jpg",
+    "alt": "A lone tree with a thin trunk and sparse leaves."
   }
 ]

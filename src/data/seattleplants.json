@@ -7,7 +7,7 @@
     "sun": "Partial",
     "water": "Dry/Moist",
     "height": 0.5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -18,7 +18,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 0.5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -29,7 +29,7 @@
     "sun": "Shade",
     "water": "Moist",
     "height": 20,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -40,7 +40,7 @@
     "sun": "Indirect",
     "water": "Wet",
     "height": 8,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -51,7 +51,7 @@
     "sun": "Partial",
     "water": "Wet",
     "height": 2,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -62,7 +62,7 @@
     "sun": "Partial",
     "water": "Moist",
     "height": 2,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -73,7 +73,7 @@
     "sun": "Direct",
     "water": "Moist/Wet",
     "height": 3,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -84,7 +84,7 @@
     "sun": "Direct",
     "water": "Wet",
     "height": 9,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -95,7 +95,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 3,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -106,7 +106,7 @@
     "sun": "Indirect",
     "water": "Wet",
     "height": 3,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -117,7 +117,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 3,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -128,7 +128,7 @@
     "sun": "Indirect",
     "water": "Wet",
     "height": 3,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -139,7 +139,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 2,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -150,7 +150,7 @@
     "sun": "Indirect",
     "water": "Moist",
     "height": 3,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -161,7 +161,7 @@
     "sun": "Indirect",
     "water": "Dry",
     "height": 1,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10"
   },
   {
@@ -172,7 +172,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 1.5,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10"
   },
   {
@@ -183,7 +183,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 2,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -194,7 +194,7 @@
     "sun": "Partial",
     "water": "Dry/Moist",
     "height": 5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -205,7 +205,7 @@
     "sun": "Direct",
     "water": "Dry",
     "height": 0.5,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -216,7 +216,7 @@
     "sun": "Shade",
     "water": "Moist/Wet",
     "height": 1,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "8/10"
   },
   {
@@ -227,7 +227,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 1,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -238,7 +238,7 @@
     "sun": "Indirect",
     "water": "Moist",
     "height": 2,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -249,7 +249,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 3,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -260,7 +260,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 3,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -271,7 +271,7 @@
     "sun": "Direct",
     "water": "Dry/Moist",
     "height": 3,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -282,7 +282,7 @@
     "sun": "Indirect",
     "water": "Dry",
     "height": 0.5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -293,7 +293,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 2,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -304,7 +304,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 6,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -315,7 +315,7 @@
     "sun": "Partial",
     "water": "Moist/Wet",
     "height": 8,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -326,7 +326,7 @@
     "sun": "Shade",
     "water": "Moist",
     "height": 2,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "5/10"
   },
   {
@@ -337,7 +337,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 3,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -348,7 +348,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -359,7 +359,7 @@
     "sun": "Partial",
     "water": "Moist/Wet",
     "height": 1,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -370,7 +370,7 @@
     "sun": "Shade",
     "water": "Moist",
     "height": 3,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -381,7 +381,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 3,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10"
   },
   {
@@ -392,7 +392,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 6,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -403,7 +403,7 @@
     "sun": "Shade",
     "water": "Moist",
     "height": 1,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -414,7 +414,7 @@
     "sun": "Shade",
     "water": "Moist",
     "height": 1,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -425,7 +425,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 5,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "5/10"
   },
   {
@@ -436,7 +436,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 1.5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -447,7 +447,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 4,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -458,7 +458,7 @@
     "sun": "Direct",
     "water": "Moist",
     "height": 2,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -469,7 +469,7 @@
     "sun": "Direct",
     "water": "Moist/Wet",
     "height": 5,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -480,7 +480,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 1,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -491,7 +491,7 @@
     "sun": "Indirect",
     "water": "Dry",
     "height": 1,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "5/10"
   },
   {
@@ -502,7 +502,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -513,7 +513,7 @@
     "sun": "Partial",
     "water": "Moist/Wet",
     "height": 4,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10"
   },
   {
@@ -524,7 +524,7 @@
     "sun": "Shade",
     "water": "Moist",
     "height": 1.5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "8/10"
   },
   {
@@ -535,7 +535,7 @@
     "sun": "Shade",
     "water": "Moist/Wet",
     "height": 2,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "5/10"
   },
   {
@@ -546,7 +546,7 @@
     "sun": "Partial",
     "water": "Moist",
     "height": 6,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -557,7 +557,7 @@
     "sun": "Direct",
     "water": "Dry/Moist",
     "height": 1,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -568,7 +568,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 1,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -579,7 +579,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 1,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -590,7 +590,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 0.5,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10"
   },
   {
@@ -601,7 +601,7 @@
     "sun": "Shade",
     "water": "Moist/Wet",
     "height": 0.5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -612,7 +612,7 @@
     "sun": "Partial",
     "water": "Moist/Wet",
     "height": 2,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -623,7 +623,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 2,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10"
   },
   {
@@ -634,7 +634,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 1,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10"
   },
   {
@@ -645,7 +645,7 @@
     "sun": "shade",
     "water": "Moist",
     "height": 0.5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -656,7 +656,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 3,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -667,7 +667,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -678,7 +678,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 2,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -689,7 +689,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 1.5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -700,7 +700,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 2,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -711,7 +711,7 @@
     "sun": "Direct",
     "water": "Dry",
     "height": 0.5,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -722,7 +722,7 @@
     "sun": "Partial",
     "water": "Moist/Wet",
     "height": 3,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -733,7 +733,7 @@
     "sun": "Shade",
     "water": "Moist/Wet",
     "height": 0.5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -744,7 +744,7 @@
     "sun": "Shade",
     "water": "Wet",
     "height": 3,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -755,7 +755,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 3,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10"
   },
   {
@@ -766,7 +766,7 @@
     "sun": "Indirect",
     "water": "Dry",
     "height": 1,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -777,7 +777,7 @@
     "sun": "Direct",
     "water": "Dry/Moist",
     "height": 1,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10"
   },
   {
@@ -788,7 +788,7 @@
     "sun": "Partial",
     "water": "Dry/Moist",
     "height": 3,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -799,7 +799,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 1.5,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -810,7 +810,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 0.5,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -821,7 +821,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 1,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -832,7 +832,7 @@
     "sun": "Indirect",
     "water": "Wet",
     "height": 1.5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -843,7 +843,7 @@
     "sun": "Indirect",
     "water": "Moist",
     "height": 2,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -854,7 +854,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 0.5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -865,7 +865,7 @@
     "sun": "Shade",
     "water": "Moist",
     "height": 0.5,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "5/10"
   },
   {
@@ -876,7 +876,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 0.5,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -887,7 +887,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 1,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -898,7 +898,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 0,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10"
   },
   {
@@ -909,7 +909,7 @@
     "sun": "Partial",
     "water": "Moist/Wet",
     "height": 2,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -920,7 +920,7 @@
     "sun": "Partial",
     "water": "Moist",
     "height": 4,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -931,7 +931,7 @@
     "sun": "Partial",
     "water": "Dry/Moist",
     "height": 20,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -942,7 +942,7 @@
     "sun": "Partial",
     "water": "Moist",
     "height": 7,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -953,7 +953,7 @@
     "sun": "Partial",
     "water": "Moist/Wet",
     "height": 5,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -964,7 +964,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 15,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -975,7 +975,7 @@
     "sun": "Indirect",
     "water": "Wet",
     "height": 3,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -986,7 +986,7 @@
     "sun": "Indirect",
     "water": "Wet",
     "height": 1.5,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -997,7 +997,7 @@
     "sun": "Partial",
     "water": "Moist/Wet",
     "height": 9,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -1008,7 +1008,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 6,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "5/10"
   },
   {
@@ -1019,7 +1019,7 @@
     "sun": "Direct",
     "water": "Dry",
     "height": 15,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "8/10"
   },
   {
@@ -1030,7 +1030,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 12,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -1041,7 +1041,7 @@
     "sun": "Direct",
     "water": "Dry",
     "height": 3,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "8/10"
   },
   {
@@ -1052,7 +1052,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 15,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -1063,7 +1063,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 3,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "5/10"
   },
   {
@@ -1074,7 +1074,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 9,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1085,7 +1085,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 10,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1096,7 +1096,7 @@
     "sun": "Partial",
     "water": "Dry/Moist",
     "height": 15,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1107,7 +1107,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 3,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -1118,7 +1118,7 @@
     "sun": "Partial",
     "water": "Moist/Wet",
     "height": 13,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1129,7 +1129,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 25,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -1140,7 +1140,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 15,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1151,7 +1151,7 @@
     "sun": "Partial",
     "water": "Dry/Moist",
     "height": 15,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1162,7 +1162,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 10,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "8/10"
   },
   {
@@ -1173,7 +1173,7 @@
     "sun": "Direct",
     "water": "Dry",
     "height": 10,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -1184,7 +1184,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 6,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "5/10"
   },
   {
@@ -1195,7 +1195,7 @@
     "sun": "Partial",
     "water": "Moist/Wet",
     "height": 15,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10"
   },
   {
@@ -1206,7 +1206,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 5,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "5/10"
   },
   {
@@ -1217,7 +1217,7 @@
     "sun": "Partial",
     "water": "Moist/Wet",
     "height": 10,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1228,7 +1228,7 @@
     "sun": "Partial",
     "water": "Dry/Moist",
     "height": 20,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10"
   },
   {
@@ -1239,7 +1239,7 @@
     "sun": "Partial",
     "water": "Dry/Moist",
     "height": 5,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1250,7 +1250,7 @@
     "sun": "Direct",
     "water": "Dry",
     "height": 10,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "8/10"
   },
   {
@@ -1261,7 +1261,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 12,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1272,7 +1272,7 @@
     "sun": "Partial",
     "water": "Moist/Wet",
     "height": 5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -1283,7 +1283,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 5,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -1294,7 +1294,7 @@
     "sun": "Partial",
     "water": "Moist/Wet",
     "height": 6,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -1305,7 +1305,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 4.5,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -1316,7 +1316,7 @@
     "sun": "Partial",
     "water": "Moist",
     "height": 8,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10"
   },
   {
@@ -1327,7 +1327,7 @@
     "sun": "Partial",
     "water": "Dry/Moist",
     "height": 8,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -1338,7 +1338,7 @@
     "sun": "Partial",
     "water": "Moist/Wet",
     "height": 9,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -1349,7 +1349,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 2,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -1360,7 +1360,7 @@
     "sun": "Partial",
     "water": "Dry/Moist",
     "height": 100,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1371,7 +1371,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 30,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -1382,7 +1382,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 160,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1393,7 +1393,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 30,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -1404,7 +1404,7 @@
     "sun": "Partial",
     "water": "Moist",
     "height": 30,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -1415,7 +1415,7 @@
     "sun": "Indirect",
     "water": "Moist",
     "height": 30,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1426,7 +1426,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 250,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1437,7 +1437,7 @@
     "sun": "Partial",
     "water": "Dry/Moist",
     "height": 250,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "5/10"
   },
   {
@@ -1448,7 +1448,7 @@
     "sun": "Direct",
     "water": "Moist/Wet",
     "height": 20,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "3/10"
   },
   {
@@ -1459,7 +1459,7 @@
     "sun": "Indirect",
     "water": "Dry",
     "height": 90,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "8/10"
   },
   {
@@ -1470,7 +1470,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 70,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -1481,7 +1481,7 @@
     "sun": "Indirect",
     "water": "Dry",
     "height": 75,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -1492,7 +1492,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 40,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -1503,7 +1503,7 @@
     "sun": "part shade",
     "water": "Dry/Moist",
     "height": 60,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "8/10"
   },
   {
@@ -1514,7 +1514,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 40,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1525,7 +1525,7 @@
     "sun": "Indirect",
     "water": "Moist",
     "height": 90,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -1536,7 +1536,7 @@
     "sun": "Direct",
     "water": "Moist/Wet",
     "height": 60,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1547,7 +1547,7 @@
     "sun": "Indirect",
     "water": "Moist",
     "height": 120,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1558,7 +1558,7 @@
     "sun": "Indirect",
     "water": "Moist",
     "height": 50,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1569,7 +1569,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 200,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -1580,7 +1580,7 @@
     "sun": "Indirect",
     "water": "Moist/Wet",
     "height": 30,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "3/10"
   },
   {
@@ -1591,7 +1591,7 @@
     "sun": "Indirect",
     "water": "Moist",
     "height": 30,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "5/10"
   },
   {
@@ -1602,7 +1602,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 25,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "3/10"
   },
   {
@@ -1613,7 +1613,7 @@
     "sun": "Shade",
     "water": "Moist/Wet",
     "height": 225,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "5/10"
   },
   {
@@ -1624,7 +1624,7 @@
     "sun": "Shade",
     "water": "Moist/Wet",
     "height": 200,
-    "avail": "H",
+    "avail": "High",
     "difficulty": "5/10"
   },
   {
@@ -1635,7 +1635,7 @@
     "sun": "Indirect",
     "water": "Dry/Moist",
     "height": 130,
-    "avail": "L",
+    "avail": "Low",
     "difficulty": "8/10"
   },
   {
@@ -1646,7 +1646,7 @@
     "sun": "Shade",
     "water": "Dry/Moist",
     "height": 40,
-    "avail": "M",
+    "avail": "Medium",
     "difficulty": "8/10"
   }
 ]
