@@ -58,6 +58,13 @@
     font-weight: 600;
   }
 
+  .post-acc-icon {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
   .post-interactions, .likeBtn, .saveBtn {
     display: flex;
     align-items: center;

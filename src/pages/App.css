@@ -6,6 +6,15 @@ body {
     font-family: 'Nunito', Arial, sans-serif;
 }
 
+.not-found-page {
+  padding-top: 50px;
+}
+
+.log-in {
+  padding-top: 60px;
+  text-align: center;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;

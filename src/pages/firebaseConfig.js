@@ -2,6 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase } from 'firebase/database';
 import { getAuth } from 'firebase/auth';
 import { GoogleAuthProvider, EmailAuthProvider } from 'firebase/auth';
+import { Navigate } from 'react-router-dom';
 
 const firebaseConfig = {
     apiKey: "AIzaSyAvz-SFFkQfRlK2WfdaVmcLgZnAa42z0LY",
@@ -22,7 +23,7 @@ const firebaseUIConfig = {
       { provider: GoogleAuthProvider.PROVIDER_ID },
       {
         provider: EmailAuthProvider.PROVIDER_ID,
-        requireDisplayName: true, // Require users to provide their display name
+        requireDisplayName: true,
       },
     ],
     signInFlow: 'popup', // Display sign-in page as a popup

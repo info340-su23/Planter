@@ -19,12 +19,8 @@ export default function Posted({ title, body, currentUser }) {
             {/* <!-- Section 1 --> */}
                 <div className="post-header">
                     <div className="account">
-                        <span className="material-icons" aria-label="account_circle">account_circle</span>
-                        {/* <!-- CHANGE -->
-                        <!-- CHANGE -->
-                        <!-- CHANGE --> */}
-                        <div className="post-acc-name">{currentUser.displayName}</div>   
                         <img className="post-acc-icon" src={currentUser.photoURL} alt="User Icon" />           
+                        <div className="post-acc-name">{currentUser.displayName}</div>   
                     </div>
                     <div className="right-tags">
                         <button className = "tag tips" type="button">Plant Tips</button>
