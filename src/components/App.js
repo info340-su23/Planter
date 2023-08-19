@@ -5,10 +5,10 @@ import React, { useState, useEffect } from 'react';
 
 import HomePage from './HomePage.js'
 import Forum from './Forum.js'
-import Navbar from '../components/Navbar'
+import Navigation from './Navbar'
 import Plants from './Plants.js'
-import Footer from '../components/Footer.js'
-import './App.css'
+import Footer from './Footer.js'
+import '../index.css'
 
 export default function App(props) {
 
@@ -22,19 +22,19 @@ export default function App(props) {
     });
   }, []);
 
-    // routing
-    return (
-      <div className="App">
-        <Navbar />
-        <div className="wrapper">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="home" element={<HomePage />} />
-            <Route path="forum" element={<Forum currentUser={currentUser} auth={auth} />} />
-            <Route path="plant" element={<Plants currentUser={currentUser} auth={auth} />} />
-          </Routes>
-        </div>
-        <Footer />
+  // routing
+  return (
+    <div className="App">
+      <Navigation />
+      <div className="wrapper">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="home" element={<HomePage />} />
+          <Route path="forum" element={<Forum currentUser={currentUser} auth={auth} />} />
+          <Route path="plant" element={<Plants currentUser={currentUser} auth={auth} />} />
+        </Routes>
       </div>
-    )
-  }
+      <Footer />
+    </div>
+  )
+}

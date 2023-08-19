@@ -1,9 +1,9 @@
 import React from 'react'
-import './MyList.css';
+import '../index.css'
 
 export default function MyList(props) {
     const { myList } = props;
-    
+
     return (
         <div>
             <h2>My List</h2>

@@ -1,34 +1,34 @@
-import React, {useState} from 'react';
-import './Posted.css';
+import React, { useState } from 'react';
+import '../index.css'
 
 export default function Posted({ title, body, currentUser }) {
     const [liked, setLiked] = useState(false);
     const [saved, setSaved] = useState(false);
-  
+
     const handleLikeClick = () => {
-      setLiked(!liked);
+        setLiked(!liked);
     };
-  
+
     const handleSaveClick = () => {
-      setSaved(!saved);
+        setSaved(!saved);
     };
 
     return (
         <div>
             <div className="posted">
-            {/* <!-- Section 1 --> */}
+                {/* <!-- Section 1 --> */}
                 <div className="post-header">
                     <div className="account">
                         <span className="material-icons" aria-label="account_circle">account_circle</span>
                         {/* <!-- CHANGE -->
                         <!-- CHANGE -->
                         <!-- CHANGE --> */}
-                        <div className="post-acc-name">{currentUser.displayName}</div>   
-                        <img className="post-acc-icon" src={currentUser.photoURL} alt="User Icon" />           
+                        <div className="post-acc-name">{currentUser.displayName}</div>
+                        <img className="post-acc-icon" src={currentUser.photoURL} alt="User Icon" />
                     </div>
                     <div className="right-tags">
-                        <button className = "tag tips" type="button">Plant Tips</button>
-                        <button className = "tag sustainbility" type="button">Sustainbility</button>                
+                        <button className="tag tips" type="button">Plant Tips</button>
+                        <button className="tag sustainbility" type="button">Sustainbility</button>
                     </div>
 
                 </div>
@@ -38,27 +38,27 @@ export default function Posted({ title, body, currentUser }) {
 
                 {/* <!-- post content --> */}
                 <div className="posted-text">
-                    <p>{body}</p>              
+                    <p>{body}</p>
                 </div>
 
 
-                    {/* <!-- different post interactions (like, save) --> */}
+                {/* <!-- different post interactions (like, save) --> */}
                 <div className="post-interactions">
                     <div className="likeBtn">
                         <span className={`material-icons ${liked ? 'liked' : ''}`}
-                        onClick={handleLikeClick} aria-label="like"> favorite
-                        </span> 
+                            onClick={handleLikeClick} aria-label="like"> favorite
+                        </span>
                         <p>Like</p>
                     </div>
                     <div className="saveBtn">
-                        <span className={`material-icons ${saved ? 'saved' : ''}`} 
-                        onClick={handleSaveClick} aria-label="save">bookmark
+                        <span className={`material-icons ${saved ? 'saved' : ''}`}
+                            onClick={handleSaveClick} aria-label="save">bookmark
                         </span>
                         <p>Save</p>
                     </div>
                 </div>
-                
-            </div>            
+
+            </div>
         </div>
     );
 }

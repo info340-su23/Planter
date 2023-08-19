@@ -1,8 +1,8 @@
-import './Footer.css'
+import '../index.css'
 
 export default function Footer() {
-    return(
-        <footer className = "footer">
+    return (
+        <footer className="footer">
             <ul>
                 <div className="nav-right">
                     <li><div className="logo-name">Planter</div></li>

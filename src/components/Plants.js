@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import WateringSchedule from '../components/WateringSchedule'
-import './Plants.css'
-import { MyList, EasyToCare, GreatForIndoors } from '../components/PlantLists';
-import { PlantCardDetails } from '../components/PlantCardDetails.js';
+import WateringSchedule from './WateringSchedule'
+import '../index.css'
+import { MyList, EasyToCare, GreatForIndoors } from './PlantLists';
+import { PlantCardDetails } from './PlantCardDetails.js';
 // import { GoogleAuthProvider, EmailAuthProvider } from 'firebase/auth'; // Import GoogleAuthProvider and EmailAuthProvider
 import { firebaseUIConfig } from '../config/firebaseConfig';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth'; //install option 1
 
-export default function Plants({currentUser, auth}) {
+export default function Plants({ currentUser, auth }) {
   const [myList, setMyList] = useState([]);
   const [indoorsArray, setIndoorsArray] = useState([]);
   const [easyCareArray, setEasyCareArray] = useState([]);
@@ -88,21 +88,21 @@ export default function Plants({currentUser, auth}) {
               handleClick={addToMyList}
               handleRemoveFromList={removeFromMyList}
               handleCardInfo={handleCardInfo}
-              isPopupOpen={isPopupOpen} 
+              isPopupOpen={isPopupOpen}
             />
             <GreatForIndoors
               indoorsArray={indoorsArray}
               handleClick={addToMyList}
               setIndoorsArray={setIndoorsArray}
               handleCardInfo={handleCardInfo}
-              isPopupOpen={isPopupOpen} 
+              isPopupOpen={isPopupOpen}
             />
             <EasyToCare
               easyCareArray={easyCareArray}
               handleClick={addToMyList}
               setEasyCareArray={setEasyCareArray}
               handleCardInfo={handleCardInfo}
-              isPopupOpen={isPopupOpen} 
+              isPopupOpen={isPopupOpen}
             />
           </>
         ) : (

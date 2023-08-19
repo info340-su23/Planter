@@ -1,25 +1,25 @@
-import React, {useState} from 'react';
-import Searchbar from '../components/Searchbar';
-import Filters from '../components/Filters';
-import CreatePost from '../components/CreatePost';
-import Posted from '../components/Posted';
-import './Forum.css';
+import React, { useState } from 'react';
+import Searchbar from './Searchbar';
+import Filters from './Filters';
+import CreatePost from './CreatePost';
+import Posted from './Posted';
+import '../index.css'
 
 
-export default function Forum({currentUser, auth}) {
+export default function Forum({ currentUser, auth }) {
     const [posts, setPosts] = useState([]);
 
     const renderPosts = () => {
         const correctOrder = [...posts].reverse();
         return correctOrder.map((post, index) => (
-            <Posted key={index} title={post.title} body={post.body} currentUser={currentUser}/>
+            <Posted key={index} title={post.title} body={post.body} currentUser={currentUser} />
         ));
     };
 
-    return(
+    return (
         <div className="forumPage">
             <div className="innerContent">
-                <Searchbar/>
+                <Searchbar />
                 <Filters />
                 <CreatePost setPosts={setPosts} posts={posts} currentUser={currentUser} auth={auth} />
                 {renderPosts()}
