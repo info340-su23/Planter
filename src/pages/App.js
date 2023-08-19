@@ -1,12 +1,26 @@
+import { Routes, Route } from 'react-router-dom';
+import { getAuth, onAuthStateChanged } from 'firebase/auth';
+import { app as firebaseApp } from './firebaseConfig';
+import React, { useState, useEffect } from 'react';
+
 import HomePage from './HomePage.js'
 import Forum from './Forum.js'
 import Navbar from '../components/Navbar'
 import Plants from './Plants.js'
 import Footer from '../components/Footer.js'
 import './App.css'
-import { Routes, Route } from 'react-router-dom';
 
 export default function App(props) {
+
+  const [currentUser, setCurrentUser] = useState(null);
+  const auth = getAuth(firebaseApp);
+
+  // Listen for authentication user changes
+  useEffect(() => {
+    onAuthStateChanged(auth, (user) => {
+      setCurrentUser(user);
+    });
+  }, []);
 
     // routing
     return (
@@ -16,8 +30,8 @@ export default function App(props) {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="home" element={<HomePage />} />
-            <Route path="forum" element={<Forum />} />
-            <Route path="plant" element={<Plants />} />
+            <Route path="forum" element={<Forum currentUser={currentUser} auth={auth} />} />
+            <Route path="plant" element={<Plants currentUser={currentUser} auth={auth} />} />
           </Routes>
         </div>
         <Footer />

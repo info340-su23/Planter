@@ -1,14 +1,15 @@
 import './CreatePost.css'
 import React, {useState} from 'react'
-// import firebase from 'firebase/app'
 import 'firebase/firestore';
-import { getDatabase, ref, set as firebaseSet, push } from 'firebase/database'
+import { getDatabase, ref, set as firebaseSet, push } from 'firebase/database';
+import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
+import { firebaseUIConfig } from '../config/firebaseConfig';
 
-export default function CreatePost({ setPosts, posts}) {
+export default function CreatePost({ setPosts, posts, currentUser, auth}) {
     const [showFullBox, setShowFullBox] = useState(false);
     const [title, setTitle] = useState('create post');
     const [body, setBody] = useState('');
-
+    
     const handleTitleClick = () => {
         setShowFullBox(true);
     };
@@ -22,60 +23,61 @@ export default function CreatePost({ setPosts, posts}) {
     }
 
     const handlePostSubmit = () => {
-        //     console.log("handlePostSubmit triggered");
-        //     console.log("Title as:", title);
-        //     console.log("Body:", body);
-        // if (title && body) {
-
+            console.log("handlePostSubmit triggered");
+            console.log("Title as:", title);
+            console.log("Body:", body);
+            console.log ("User:", currentUser);
+        if (currentUser && title && body) {
+        
             const db = getDatabase();
             const postRef = ref(db, 'post');
             
             push(postRef, {
                 Title: title,
                 Body: body,
+                UserID: currentUser.uid
             });
 
             setPosts(prevPosts => [
                 ...prevPosts,
                 {
                     title: title,
-                    body: body
+                    body: body,
+                    userID: currentUser.uid
                 }
             ])
 
             setShowFullBox(false);
             setTitle('create post');
             setBody('');
-        // }
+        }
     };
-
-    // test const database
-    const db = getDatabase();
-    const titleRef = ref(db, "post/Title")
-    // const bodyRef = ref(db, "post/Body")
-    firebaseSet(titleRef, "this is wow!")
-    // firebaseSet(bodyRef, "wooow")
 
     return (
         <div className="post-container">
+            {currentUser ? (
+                <div className="title-row">
+                    {/* <!-- Account icon --> */}
+                    <div className="account-icon">
+                        <span className="material-icons" aria-label="account_circle">account_circle</span>
+                    </div>
 
-        {/* <!-- container for first row --> */}
-        <div className="title-row">
-            {/* <!-- Account icon --> */}
-          <div className="account-icon">
-            <span className="material-icons" aria-label="account_circle">account_circle</span>
-          </div>
-
-          {/* <!-- Title input --> */}
-          <div className="title-box">
-          {showFullBox ? (
-            <input type="text" name="text" placeholder={title} onChange={handleTitleChange}></input>
+                    {/* <!-- Title input --> */}
+                    <div className="title-box">
+                        {showFullBox ? (
+                            <input type="text" name="text" placeholder={title} onChange={handleTitleChange}></input>
+                        ) : (
+                            <input type="text" name="text" placeholder={title}
+                            onClick={handleTitleClick} onChange={handleTitleChange}></input>
+                        )}
+                    </div>
+                </div>
             ) : (
-                <input type="text" name="text" placeholder={title}
-                onClick={handleTitleClick} onChange={handleTitleChange}></input>
+                <div>
+                <p>Please sign in to create a post:</p>
+                <StyledFirebaseAuth uiConfig={firebaseUIConfig} firebaseAuth={auth} />
+                </div>
             )}
-          </div>
-        </div>
         
         {/* Only added if user clicks: */}
         {showFullBox && (

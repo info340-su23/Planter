@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './Posted.css';
 
-export default function Posted({ title, body }) {
+export default function Posted({ title, body, currentUser }) {
     const [liked, setLiked] = useState(false);
     const [saved, setSaved] = useState(false);
   
@@ -13,9 +13,6 @@ export default function Posted({ title, body }) {
       setSaved(!saved);
     };
 
-
-
-
     return (
         <div>
             <div className="posted">
@@ -26,7 +23,8 @@ export default function Posted({ title, body }) {
                         {/* <!-- CHANGE -->
                         <!-- CHANGE -->
                         <!-- CHANGE --> */}
-                        <div className="post-acc-name">Lily</div>              
+                        <div className="post-acc-name">{currentUser.displayName}</div>   
+                        <img className="post-acc-icon" src={currentUser.photoURL} alt="User Icon" />           
                     </div>
                     <div className="right-tags">
                         <button className = "tag tips" type="button">Plant Tips</button>
